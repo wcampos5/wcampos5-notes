@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/Learning/DIO/General Knowledge/SHA1 - Security Hash Algorithm.md",
+                "file": "Personal/Learning/Git/Git Structure - Under the Hood.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/Learning/DIO/General Knowledge/SHA1 - Security Hash Algorithm.md",
+                "file": "Personal/Learning/Git/Git Structure - Under the Hood.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/Learning/DIO/General Knowledge/SHA1 - Security Hash Algorithm.md",
+                "file": "Personal/Learning/Git/Git Structure - Under the Hood.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/Learning/DIO/General Knowledge/SHA1 - Security Hash Algorithm.md"
+                "file": "Personal/Learning/Git/Git Structure - Under the Hood.md"
               }
             }
           }
@@ -160,8 +160,14 @@
   },
   "active": "4456e0c9a09b73b8",
   "lastOpenFiles": [
-    "Personal/Obsidian/Obsidian help.md",
+    "Personal/Learning/Git/Files/commit_structure.png",
+    "Personal/Learning/Git/Files/commit.png",
+    "Personal/Learning/Git/Files/tree_structure.png",
+    "Personal/Learning/Git/Files/blob_structure.png",
+    "Personal/Learning/Git/aa Git Index.md",
+    "Personal/Learning/Git/Git Structure - Under the Hood.md",
     "Personal/Learning/DIO/General Knowledge/SHA1 - Security Hash Algorithm.md",
+    "Personal/Obsidian/Obsidian help.md",
     "Personal/Learning/DIO/General Knowledge/Files/Sha1_Sample.txt",
     "Personal/Learning/DIO/General Knowledge/Files/New Text Document.txt",
     "Personal/Learning/DIO/General Knowledge/Files",
@@ -169,7 +175,6 @@
     "Personal/Learning/Git/Github SSH Key and Personal Token.md",
     "Personal/Learning/DIO/General Knowledge",
     "Personal/Learning/DIO",
-    "Personal/Learning/Git/aa Git Index.md",
     "Personal/Learning/Git/Files/edit_generic_credential.png",
     "Personal/Learning/Git/Files/new_personal_access_token.png",
     "Personal/Learning/Git/Files/add_ssh_key.png",
