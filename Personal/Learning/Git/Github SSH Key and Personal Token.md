@@ -1,4 +1,5 @@
 
+
 In order that you can exchange data between any host and the Github.com 
 you need to create a SSH Key or Token and register it in the ssh-agent.
 
@@ -79,7 +80,11 @@ Password: Use the password that your have saved in a local file
 
 
 
- 
+## ## Developer's hack (short code if required?):
+
+```
+git remote set-url origin https://<githubtoken>@github.com/<username>/<repositoryname>.git
+```
 
 
 
