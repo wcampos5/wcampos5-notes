@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "039a0ad663b8658c",
+    "type": "split",
+    "children": [
+      {
+        "id": "592ef0aa586ff71d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4456e0c9a09b73b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal/Learning/Git/Github SSH Key and Personal Token.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "83bf79a26e433e32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal/Obsidian/Obsidian help.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "06e48a39bce315c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "c579dd1df2d8ce43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "14d92df354dd37cb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1153fcf79b218176",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "34542522b82e625c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0e4a18a0a6c3f25b",
+    "type": "split",
+    "children": [
+      {
+        "id": "73caf8438f5df95f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eed7637f80d7e5b5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Personal/Learning/Git/Github SSH Key and Personal Token.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2b30d7d4bb119768",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Personal/Learning/Git/Github SSH Key and Personal Token.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "89545b1cd083091a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "551999befce35436",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Personal/Learning/Git/Github SSH Key and Personal Token.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4456e0c9a09b73b8",
+  "lastOpenFiles": [
+    "Personal/Learning/Git/aa Git Index.md",
+    "Personal/Learning/Git/Github SSH Key and Personal Token.md",
+    "Personal/Obsidian/Obsidian help.md",
+    "Personal/Learning/Git/Files/edit_generic_credential.png",
+    "Personal/Learning/Git/Files/new_personal_access_token.png",
+    "Personal/Learning/Git/Files/add_ssh_key.png",
+    "Personal/Learning/Git/Files",
+    "Personal/Learning/Git/New folder"
+  ]
+}
