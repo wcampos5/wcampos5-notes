@@ -4,23 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "592ef0aa586ff71d",
+        "id": "0a15428b989df61c",
         "type": "tabs",
         "children": [
           {
-            "id": "4456e0c9a09b73b8",
+            "id": "a99963a1be1a710b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/Learning/Git/Git Structure - Under the Hood.md",
+                "file": "Personal/Learning/Podman/Initial Setup Podman Desktop.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "83bf79a26e433e32",
+            "id": "cb0f9445f19262cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal/Ford/CRID2/Glossary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8c0f2405fd7b8ea2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal/Learning/Git/Archieve Repository.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4838edec51282ba3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -60,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "archi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 367.5
   },
   "right": {
     "id": "0e4a18a0a6c3f25b",
@@ -97,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/Learning/Git/Git Structure - Under the Hood.md",
+                "file": "Personal/Learning/Podman/Initial Setup Podman Desktop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/Learning/Git/Git Structure - Under the Hood.md",
+                "file": "Personal/Learning/Podman/Initial Setup Podman Desktop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/Learning/Git/Git Structure - Under the Hood.md"
+                "file": "Personal/Learning/Podman/Initial Setup Podman Desktop.md"
               }
             }
           }
@@ -158,27 +182,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4456e0c9a09b73b8",
+  "active": "a99963a1be1a710b",
   "lastOpenFiles": [
+    "Personal/Learning/Podman/Initial Setup CLI (Out of VPN).md",
+    "Personal/Learning/Podman/Initial Setup Podman Desktop.md",
+    "Personal/Learning/Podman/Dockerfile Sample.md",
+    "Personal/Ford/Proxy On-Off.md",
+    "Personal/Learning/Podman/Creating a Cointainer.md",
+    "Personal/Ford/Files/proxy.bat",
+    "Personal/Ford/Files",
+    "Personal/Ford/CRID2/Access Matrix.md",
+    "Personal/Learning/Podman/docker_architecture.svg",
+    "Personal/Learning/Podman/Podman install.md",
+    "Personal/Learning/Podman/Dockerfile Commands.md",
+    "Personal/Learning/Podman/Container Commands.md",
+    "Personal/Learning/Podman/Manual terraform Deployment.md",
+    "Personal/Learning/Tekton/How to debug in Tekton.md",
+    "Personal/Ford/CRID2/Glossary.md",
+    "Personal/Ford/CRID2/CRID2 Index.md",
+    "Personal/Learning/Git/Archieve Repository.md",
+    "Personal/Ford/CRID2/Create Idea (Vehicle Programs Tab).md",
+    "Personal/Ford/CRID2/Create Idea (Idea Details Tab).md",
+    "Personal/Ford/CRID2/What is CRID2.md",
+    "Personal/Ford/CRID2/Design Cost Reduction Scope.md",
+    "Personal/Ford/CRID2/Untitled.md",
+    "Personal/Ford/CRID2/Metrics.md",
+    "Personal/Ford/TVM/TVM - Team Value Management.md",
+    "Personal/Ford/TVM/TVM Process.md",
+    "Personal/Ford/TVM/TVM Process 1.md",
+    "Personal/Ford/CRID2/Files/implementation_process.png",
+    "Personal/Ford/CRID2/Files/tvm_process.png",
+    "Personal/Ford/TVM/Files/tvm_process.png",
+    "Personal/Ford/TVM/Files/implementation_process.png",
+    "Personal/Ford/TVM/TVM Index.md",
+    "PrimitivexReferredObject.java.md",
+    "Personal/Ford/TVM/Files",
+    "2023-11-18.md",
+    "Personal/Ford/TVM",
+    "Personal/Ford/CRID2/Files",
+    "Personal/Ford/CRID2/New folder",
+    "Personal/Ford/CRID2",
+    "Personal/Learning/Java/Files/PrimitivexReferredObjects.class",
+    "Personal/Learning/Java/Files/GeeksForGeeks.class",
+    "Personal/Learning/Java/Files/PrimitivexReferredObjects.java",
+    "Untitled.canvas",
+    "Personal/Learning/Java/Files/java_data_type_structure.png",
     "Personal/Learning/Git/Files/commit_structure.png",
     "Personal/Learning/Git/Files/commit.png",
     "Personal/Learning/Git/Files/tree_structure.png",
-    "Personal/Learning/Git/Files/blob_structure.png",
-    "Personal/Learning/Git/aa Git Index.md",
-    "Personal/Learning/Git/Git Structure - Under the Hood.md",
-    "Personal/Learning/DIO/General Knowledge/SHA1 - Security Hash Algorithm.md",
-    "Personal/Obsidian/Obsidian help.md",
-    "Personal/Learning/DIO/General Knowledge/Files/Sha1_Sample.txt",
-    "Personal/Learning/DIO/General Knowledge/Files/New Text Document.txt",
-    "Personal/Learning/DIO/General Knowledge/Files",
-    "Personal/Learning/DIO/General Knowledge/New folder",
-    "Personal/Learning/Git/Github SSH Key and Personal Token.md",
-    "Personal/Learning/DIO/General Knowledge",
-    "Personal/Learning/DIO",
-    "Personal/Learning/Git/Files/edit_generic_credential.png",
-    "Personal/Learning/Git/Files/new_personal_access_token.png",
-    "Personal/Learning/Git/Files/add_ssh_key.png",
-    "Personal/Learning/Git/Files",
-    "Personal/Learning/Git/New folder"
+    "Personal/Learning/Git/Files/blob_structure.png"
   ]
 }
