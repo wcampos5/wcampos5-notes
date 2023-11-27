@@ -8,12 +8,48 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a99963a1be1a710b",
+            "id": "bb4e759ba2a57217",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal/Learning/Podman/Container Commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "923ba89ac8a48a64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal/Learning/Podman/Podman CLI startup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e3d0fb50ac7263d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Personal/Learning/Podman/Initial Setup Podman Desktop.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a99963a1be1a710b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal/Learning/Podman/Initial Setup CLI (Out of VPN).md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +91,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -182,12 +219,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a99963a1be1a710b",
+  "active": "e3d0fb50ac7263d3",
   "lastOpenFiles": [
     "Personal/Learning/Podman/Initial Setup CLI (Out of VPN).md",
+    "Personal/Learning/Podman/Podman CLI startup.md",
     "Personal/Learning/Podman/Initial Setup Podman Desktop.md",
-    "Personal/Learning/Podman/Dockerfile Sample.md",
+    "Personal/Learning/Podman/Container Commands.md",
+    "Personal/Learning/Podman/Files/podman_proxy_setting.png",
+    "Personal/Learning/Podman/Files/quay_generated_podman_login.png",
+    "Personal/Learning/Podman/Files/quay_account_settings.png",
+    "Personal/Learning/Podman/Files/quay_account_seetings.png",
+    "Personal/Learning/Podman/Files/quay_login_screen.png",
+    "Personal/Learning/Podman/Files/podman_desktop_taskbar.png",
+    "Personal/Learning/Podman/Files/podman_install_screen_WSL.png",
+    "Personal/Learning/Podman/Files/podman_install_screen.png",
+    "Pasted image 20231127094811.png",
     "Personal/Ford/Proxy On-Off.md",
+    "Personal/Learning/Podman/Dockerfile Sample.md",
     "Personal/Learning/Podman/Creating a Cointainer.md",
     "Personal/Ford/Files/proxy.bat",
     "Personal/Ford/Files",
@@ -195,7 +243,6 @@
     "Personal/Learning/Podman/docker_architecture.svg",
     "Personal/Learning/Podman/Podman install.md",
     "Personal/Learning/Podman/Dockerfile Commands.md",
-    "Personal/Learning/Podman/Container Commands.md",
     "Personal/Learning/Podman/Manual terraform Deployment.md",
     "Personal/Learning/Tekton/How to debug in Tekton.md",
     "Personal/Ford/CRID2/Glossary.md",
@@ -210,14 +257,9 @@
     "Personal/Ford/TVM/TVM - Team Value Management.md",
     "Personal/Ford/TVM/TVM Process.md",
     "Personal/Ford/TVM/TVM Process 1.md",
-    "Personal/Ford/CRID2/Files/implementation_process.png",
-    "Personal/Ford/CRID2/Files/tvm_process.png",
-    "Personal/Ford/TVM/Files/tvm_process.png",
-    "Personal/Ford/TVM/Files/implementation_process.png",
     "Personal/Ford/TVM/TVM Index.md",
     "PrimitivexReferredObject.java.md",
     "Personal/Ford/TVM/Files",
-    "2023-11-18.md",
     "Personal/Ford/TVM",
     "Personal/Ford/CRID2/Files",
     "Personal/Ford/CRID2/New folder",
@@ -225,11 +267,6 @@
     "Personal/Learning/Java/Files/PrimitivexReferredObjects.class",
     "Personal/Learning/Java/Files/GeeksForGeeks.class",
     "Personal/Learning/Java/Files/PrimitivexReferredObjects.java",
-    "Untitled.canvas",
-    "Personal/Learning/Java/Files/java_data_type_structure.png",
-    "Personal/Learning/Git/Files/commit_structure.png",
-    "Personal/Learning/Git/Files/commit.png",
-    "Personal/Learning/Git/Files/tree_structure.png",
-    "Personal/Learning/Git/Files/blob_structure.png"
+    "Untitled.canvas"
   ]
 }
