@@ -8,84 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bb4e759ba2a57217",
+            "id": "07a521f518e4ccd1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/Learning/Podman/Container Commands.md",
+                "file": "Personal/Learning/Python/Installation Setup.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "923ba89ac8a48a64",
+            "id": "a30228dac8c113f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/Learning/Podman/Podman CLI startup.md",
+                "file": "Personal/Learning/Python/Default Functions.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e3d0fb50ac7263d3",
+            "id": "ae792ce562653639",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/Learning/Podman/Initial Setup Podman Desktop.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a99963a1be1a710b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal/Learning/Podman/Initial Setup CLI (Out of VPN).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cb0f9445f19262cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal/Ford/CRID2/Glossary.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c0f2405fd7b8ea2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal/Learning/Git/Archieve Repository.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4838edec51282ba3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal/Obsidian/Obsidian help.md",
+                "file": "Personal/Learning/Python/Conditional Structures.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "archi",
+                "query": "tag:#ternary",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -158,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/Learning/Podman/Initial Setup Podman Desktop.md",
+                "file": "Personal/Learning/Python/Conditional Structures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/Learning/Podman/Initial Setup Podman Desktop.md",
+                "file": "Personal/Learning/Python/Conditional Structures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/Learning/Podman/Initial Setup Podman Desktop.md"
+                "file": "Personal/Learning/Python/Conditional Structures.md"
               }
             }
           }
@@ -219,12 +172,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e3d0fb50ac7263d3",
+  "active": "ae792ce562653639",
   "lastOpenFiles": [
-    "Personal/Learning/Podman/Initial Setup CLI (Out of VPN).md",
-    "Personal/Learning/Podman/Podman CLI startup.md",
-    "Personal/Learning/Podman/Initial Setup Podman Desktop.md",
-    "Personal/Learning/Podman/Container Commands.md",
+    "Personal/Learning/Python/Logic Operators.md",
+    "Personal/Learning/Python/Strings.md",
+    "Personal/Learning/Python/Default Functions.md",
+    "Personal/Learning/Python/Installation Setup.md",
+    "Template-notes/Title.md",
+    "Personal/Learning/Python/Repetition Structures (Loop).md",
+    "Personal/Learning/Python/Conditional Structures.md",
+    "Personal/Learning/Python/Indentation and Blocks.md",
+    "Personal/Learning/Python/Association Operators.md",
+    "Personal/Learning/Python/Code Snippet.md",
+    "Personal/Learning/Python/Identity Operators.md",
+    "Personal/Learning/Python/Attribution Operators.md",
+    "Personal/Learning/Python/Comparison Operators.md",
+    "Personal/Learning/Python/Arithmetic Operators.md",
+    "Personal/Learning/Python/Input and Output Functions.md",
+    "Personal/Obsidian/Obsidian help.md",
+    "Personal/Learning/Python/Conversion Types.md",
+    "Personal/Learning/Python/Variables and Constantes.md",
+    "Personal/Learning/Python/Types.md",
+    "Personal/Learning/Python/Interactive Mode.md",
+    "Personal/Learning/DIO/General Knowledge/SHA1 - Security Hash Algorithm.md",
+    "Personal/Ford/Vehicles.md",
+    "Personal/Learning/Python/Conventions.md",
+    "Personal/Ford/3 Legged and 5 Why/3 Legged 5 Why Analysis Training (3x5).md",
+    "Personal/Learning/Python/Title.md",
+    "Template-notes",
+    "Personal/Ford/TVM/TVM Glossary.md",
+    "Pasted image 20231128104321.png",
+    "Personal/Learning/Python/Files/python_types.png",
+    "Personal/Learning/Python/Files",
+    "Personal/Learning/Python",
     "Personal/Learning/Podman/Files/podman_proxy_setting.png",
     "Personal/Learning/Podman/Files/quay_generated_podman_login.png",
     "Personal/Learning/Podman/Files/quay_account_settings.png",
@@ -233,40 +213,13 @@
     "Personal/Learning/Podman/Files/podman_desktop_taskbar.png",
     "Personal/Learning/Podman/Files/podman_install_screen_WSL.png",
     "Personal/Learning/Podman/Files/podman_install_screen.png",
-    "Pasted image 20231127094811.png",
-    "Personal/Ford/Proxy On-Off.md",
-    "Personal/Learning/Podman/Dockerfile Sample.md",
-    "Personal/Learning/Podman/Creating a Cointainer.md",
     "Personal/Ford/Files/proxy.bat",
     "Personal/Ford/Files",
-    "Personal/Ford/CRID2/Access Matrix.md",
-    "Personal/Learning/Podman/docker_architecture.svg",
-    "Personal/Learning/Podman/Podman install.md",
-    "Personal/Learning/Podman/Dockerfile Commands.md",
-    "Personal/Learning/Podman/Manual terraform Deployment.md",
-    "Personal/Learning/Tekton/How to debug in Tekton.md",
-    "Personal/Ford/CRID2/Glossary.md",
-    "Personal/Ford/CRID2/CRID2 Index.md",
-    "Personal/Learning/Git/Archieve Repository.md",
-    "Personal/Ford/CRID2/Create Idea (Vehicle Programs Tab).md",
-    "Personal/Ford/CRID2/Create Idea (Idea Details Tab).md",
-    "Personal/Ford/CRID2/What is CRID2.md",
-    "Personal/Ford/CRID2/Design Cost Reduction Scope.md",
-    "Personal/Ford/CRID2/Untitled.md",
-    "Personal/Ford/CRID2/Metrics.md",
-    "Personal/Ford/TVM/TVM - Team Value Management.md",
-    "Personal/Ford/TVM/TVM Process.md",
-    "Personal/Ford/TVM/TVM Process 1.md",
-    "Personal/Ford/TVM/TVM Index.md",
-    "PrimitivexReferredObject.java.md",
     "Personal/Ford/TVM/Files",
     "Personal/Ford/TVM",
     "Personal/Ford/CRID2/Files",
     "Personal/Ford/CRID2/New folder",
     "Personal/Ford/CRID2",
-    "Personal/Learning/Java/Files/PrimitivexReferredObjects.class",
-    "Personal/Learning/Java/Files/GeeksForGeeks.class",
-    "Personal/Learning/Java/Files/PrimitivexReferredObjects.java",
     "Untitled.canvas"
   ]
 }
