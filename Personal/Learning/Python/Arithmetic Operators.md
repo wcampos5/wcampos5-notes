@@ -1,3 +1,5 @@
+Reference[^1]
+***
 #### Addition (+)
 
 #### Subtraction (-)
@@ -37,3 +39,5 @@ Rest of division
 #### Tags
 ***
 #operators #aritimetic #aritimeticoperators #addition #subtraction #multiplication #division #exponential #module #precedency
+
+[^1]: [Arithmetic Operators](https://github.com/digitalinnovationone/trilha-python-dio/blob/main/00%20-%20Fundamentos/operadores_aritmeticos.py)

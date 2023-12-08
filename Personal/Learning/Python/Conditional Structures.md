@@ -1,3 +1,5 @@
+Reference[^1]
+***
 Used to flow control deviation based on the specific conditions
 
 #### If
@@ -57,3 +59,5 @@ print(f"{status} ao realizar o saque!")
 #### Tags
 ***
 #conditional #structure #if #if-else #if-else-if #if-elif-else #nested 
+
+[^1]: [Conditional Structures](https://github.com/digitalinnovationone/trilha-python-dio/blob/main/00%20-%20Fundamentos/estruturas_condicionais.py)

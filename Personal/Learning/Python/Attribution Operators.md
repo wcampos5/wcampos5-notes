@@ -1,3 +1,5 @@
+Reference[^1]
+***
 #### Compare two values
 
 |Operator|Description |
@@ -39,3 +41,5 @@ Back *saldo* to 500 `saldo = 500`
 #### Tags
 ***
 #operators #attribution 
+
+[^1]: [Attribution Operators](https://github.com/digitalinnovationone/trilha-python-dio/blob/main/00%20-%20Fundamentos/operadores_atribuicao.py)

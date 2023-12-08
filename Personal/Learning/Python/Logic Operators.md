@@ -1,3 +1,5 @@
+Reference[^1]
+***
 Used with comparison operators to mount logic expressions
 
 |Operator|Description |
@@ -60,3 +62,5 @@ Used with comparison operators to mount logic expressions
 #### Tags
 ***
 #operators #logic #logicoperator #and #or #not #precedence
+
+[^1]: [Logic Operators](https://github.com/digitalinnovationone/trilha-python-dio/blob/main/00%20-%20Fundamentos/operadores_logicos.py)

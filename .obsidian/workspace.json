@@ -8,43 +8,67 @@
         "type": "tabs",
         "children": [
           {
-            "id": "07a521f518e4ccd1",
+            "id": "a11098af1587ec9c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/Learning/Python/Installation Setup.md",
+                "file": "Personal/Learning/Python/Functions.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a30228dac8c113f5",
+            "id": "d9851a03f78de7d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/Learning/Python/Default Functions.md",
+                "file": "Personal/Learning/Python/Inheritance.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ae792ce562653639",
+            "id": "33f41b37bfb801ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/Learning/Python/Conditional Structures.md",
+                "file": "Personal/Learning/Python/Encapsulation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "060ed325a594e761",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal/Learning/Python/Polymorphism.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1c76ddde16ab2830",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal/Learning/Python/Conventions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -73,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ternary",
+                "query": "#convent",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +114,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/Learning/Python/Conditional Structures.md",
+                "file": "Personal/Learning/Python/Polymorphism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/Learning/Python/Conditional Structures.md",
+                "file": "Personal/Learning/Python/Polymorphism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/Learning/Python/Conditional Structures.md"
+                "file": "Personal/Learning/Python/Polymorphism.md"
               }
             }
           }
@@ -172,54 +195,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ae792ce562653639",
+  "active": "060ed325a594e761",
   "lastOpenFiles": [
-    "Personal/Learning/Python/Logic Operators.md",
-    "Personal/Learning/Python/Strings.md",
+    "Personal/Learning/Python/Encapsulation.md",
+    "Personal/Learning/Python/Polymorphism.md",
+    "Personal/Learning/Python/Inheritance.md",
+    "Personal/Learning/Python/Conventions.md",
+    "Personal/Learning/Python/Files/class_diagram_encapsulation.png",
+    "Personal/Learning/Python/Abstract Classes - Interfaces.md",
+    "Personal/Learning/Python/Files/class_diagram_multiple_inheritance.png",
+    "Personal/Learning/Python/Files/class_diagram_inheritance.png",
+    "Personal/Learning/Python/Class Methods and Static Methods.md",
+    "Personal/Learning/Python/Class and Instance Attributes.md",
+    "Personal/Learning/Python/Classes e Objetos.md",
+    "Personal/Learning/Python/Functions.md",
+    "2023-11-18.md",
+    "Personal/Learning/Python/First Class Objects.md",
+    "Personal/Learning/Python/Data Structure - List.md",
+    "Personal/Learning/Python/Data Structure - Tuple.md",
+    "Personal/Learning/Python/Data Structure - Dictionaries.md",
     "Personal/Learning/Python/Default Functions.md",
-    "Personal/Learning/Python/Installation Setup.md",
+    "Personal/Learning/Python/Data Structure - Set.md",
+    "Personal/Learning/Python/Project 1 - Bank.md",
+    "Personal/Learning/Python/Strings.md",
+    "Personal/Ford/LDAP CDSID Documentation.md",
+    "Personal/Ford/LDAP - FDS Document.md",
+    "Personal/Ford/How to setup a new application.md",
     "Template-notes/Title.md",
+    "Personal/Ford/CRID2/CRID2 Index.md",
     "Personal/Learning/Python/Repetition Structures (Loop).md",
     "Personal/Learning/Python/Conditional Structures.md",
     "Personal/Learning/Python/Indentation and Blocks.md",
-    "Personal/Learning/Python/Association Operators.md",
-    "Personal/Learning/Python/Code Snippet.md",
-    "Personal/Learning/Python/Identity Operators.md",
-    "Personal/Learning/Python/Attribution Operators.md",
-    "Personal/Learning/Python/Comparison Operators.md",
-    "Personal/Learning/Python/Arithmetic Operators.md",
-    "Personal/Learning/Python/Input and Output Functions.md",
-    "Personal/Obsidian/Obsidian help.md",
-    "Personal/Learning/Python/Conversion Types.md",
-    "Personal/Learning/Python/Variables and Constantes.md",
-    "Personal/Learning/Python/Types.md",
-    "Personal/Learning/Python/Interactive Mode.md",
-    "Personal/Learning/DIO/General Knowledge/SHA1 - Security Hash Algorithm.md",
-    "Personal/Ford/Vehicles.md",
-    "Personal/Learning/Python/Conventions.md",
-    "Personal/Ford/3 Legged and 5 Why/3 Legged 5 Why Analysis Training (3x5).md",
-    "Personal/Learning/Python/Title.md",
+    "Personal/Learning/HTTP Stuffs",
+    "Personal/Ford/CRID2/Files/crid_request_access_screen3.png",
+    "Personal/Ford/CRID2/Files/crid_request_access_screen2.png",
+    "Personal/Ford/CRID2/Files/crid_request_access_screen1.png",
     "Template-notes",
-    "Personal/Ford/TVM/TVM Glossary.md",
     "Pasted image 20231128104321.png",
     "Personal/Learning/Python/Files/python_types.png",
     "Personal/Learning/Python/Files",
     "Personal/Learning/Python",
     "Personal/Learning/Podman/Files/podman_proxy_setting.png",
     "Personal/Learning/Podman/Files/quay_generated_podman_login.png",
-    "Personal/Learning/Podman/Files/quay_account_settings.png",
-    "Personal/Learning/Podman/Files/quay_account_seetings.png",
-    "Personal/Learning/Podman/Files/quay_login_screen.png",
-    "Personal/Learning/Podman/Files/podman_desktop_taskbar.png",
-    "Personal/Learning/Podman/Files/podman_install_screen_WSL.png",
-    "Personal/Learning/Podman/Files/podman_install_screen.png",
     "Personal/Ford/Files/proxy.bat",
     "Personal/Ford/Files",
     "Personal/Ford/TVM/Files",
     "Personal/Ford/TVM",
     "Personal/Ford/CRID2/Files",
     "Personal/Ford/CRID2/New folder",
-    "Personal/Ford/CRID2",
     "Untitled.canvas"
   ]
 }

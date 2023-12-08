@@ -1,3 +1,5 @@
+Reference[^1]
+***
 Verify if the object use the same position in the memory
 
 |Operator|Description |
@@ -25,3 +27,5 @@ Verify if the object use the same position in the memory
 #### Tags
 ***
 #operators #identity #compareobjects #compare #like
+
+[^1]: [Identity Operators](https://github.com/digitalinnovationone/trilha-python-dio/blob/main/00%20-%20Fundamentos/operadores_identidade.py)

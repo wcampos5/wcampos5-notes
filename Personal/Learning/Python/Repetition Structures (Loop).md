@@ -1,3 +1,7 @@
+Reference - For[^1]
+Reference - While[^2]
+Reference - Break |Continue[^3]
+***
 #### For and While
 
 ===For===
@@ -73,3 +77,9 @@ for number in range(101):
 #### Tags
 ***
 #for #while #break #repetition
+
+[^1]: [Repetition Structures - For](https://github.com/digitalinnovationone/trilha-python-dio/blob/main/00%20-%20Fundamentos/estrutura_repeticao_for.py)
+
+[^2]: [Repetition Structure - While](https://github.com/digitalinnovationone/trilha-python-dio/blob/main/00%20-%20Fundamentos/estrutura_repeticao_while.py)
+[^3]: [Repetition Structure - Break | Continue](https://github.com/digitalinnovationone/trilha-python-dio/blob/main/00%20-%20Fundamentos/estrutura_repeticao_break.py)
+

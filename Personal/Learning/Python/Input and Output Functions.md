@@ -1,3 +1,5 @@
+Reference[^1]
+***
 Receiving and providing users information's
 ***
 
@@ -14,3 +16,5 @@ Receiving and providing users information's
 #### Tags
 ***
 #input #output #inputread #read #outputwrite #write
+
+[^1]: [Input Output Functions](https://github.com/digitalinnovationone/trilha-python-dio/blob/main/00%20-%20Fundamentos/print_input.py)

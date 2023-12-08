@@ -1,4 +1,4 @@
-Estratégia mais eficiente para gerenciar valor e custo do veiculos currentes e fututros.
+Estratégia mais eficiente para gerenciar valor e custo do veiculos correntes e fututros.
 
 ###### Value = Function / Cost
 

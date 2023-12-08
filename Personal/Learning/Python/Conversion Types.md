@@ -1,3 +1,5 @@
+Reference[^1]
+***
 
 > [!example] Integer to Float
 Using the built in method
@@ -42,3 +44,6 @@ idade 46 preco 10.5
 #### Tags
 ***
 #typesconversion #conversiontype #intotofloat #floattoint #numbertostring #stringtonumber
+
+
+[^1]: [Convertendo Tipos](https://github.com/digitalinnovationone/trilha-python-dio/blob/main/00%20-%20Fundamentos/convertendo_tipos.py)

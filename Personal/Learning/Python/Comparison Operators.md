@@ -1,3 +1,5 @@
+Reference[^1]
+***
 #### Compare two values
 
 |Operator|Description |
@@ -38,3 +40,5 @@
 #### Tags
 ***
 #operators #comparison #comparisonoperators #equals #major #minor
+
+[^1]: [Compare Operators](https://github.com/digitalinnovationone/trilha-python-dio/blob/main/00%20-%20Fundamentos/operadores_comparacao.py)

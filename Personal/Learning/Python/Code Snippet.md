@@ -4,6 +4,7 @@ print(f"Text {variable}")
 ```
 
 If-else
+#if-else-snippet
 ```python
 if variable < variable2:
 	do
@@ -12,6 +13,7 @@ else:
 ```
 
 If-elif-else
+#if-elif-else-snippet
 ```python
 if variable < variable2:
 	do
@@ -34,6 +36,16 @@ else:
 	do
 ```
 
+Enumerate
+#enumerate-snippet
+```python
+for index,custom_obj in enumerate(iterable)
+	print(f"{custom_obj}:{iterable}")
+```
+
+
+
+
 #### Tags
 ***
-#snippet #codesnippet
+#snippet #codesnippet #pythonsnippet

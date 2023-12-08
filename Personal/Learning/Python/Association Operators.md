@@ -1,3 +1,5 @@
+Reference[^1]
+***
 Look for an object in a Sequence (List, Tuple, Range and String)
 
 |Operator|Description |
@@ -25,3 +27,5 @@ Look for an object in a Sequence (List, Tuple, Range and String)
 #### Tags
 ***
 #operators #association #in #like #find
+
+[^1]: [Association Operators](https://github.com/digitalinnovationone/trilha-python-dio/blob/main/00%20-%20Fundamentos/operadores_associacao.py)

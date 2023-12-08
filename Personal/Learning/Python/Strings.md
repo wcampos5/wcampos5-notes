@@ -1,5 +1,7 @@
-External References:
-[]()
+Built in String Functions[^1]
+Format Strings[^2]
+Slice String[^3]
+Multi Line String[^4]
 ***
 Main use is to manipulate characters sequence
 Rich in methods.
@@ -142,7 +144,12 @@ print(msg)
 
 
 ***
-[[Repetition Structures (Loop)]] | [[]]
+[[Repetition Structures (Loop)]] | [[Project 1 - Bank]]
 #### Tags
 ***
 #strings 
+
+[^1]: [Built in String Functions](https://github.com/digitalinnovationone/trilha-python-dio/blob/main/00%20-%20Fundamentos/string_1.py)
+[^2]: [Format Strings](https://github.com/digitalinnovationone/trilha-python-dio/blob/main/00%20-%20Fundamentos/string_2.py)
+[^3]: [Slice String](https://github.com/digitalinnovationone/trilha-python-dio/blob/main/00%20-%20Fundamentos/string_3.py)
+[^4]: [Multi Line String](https://github.com/digitalinnovationone/trilha-python-dio/blob/main/00%20-%20Fundamentos/string_4.py)

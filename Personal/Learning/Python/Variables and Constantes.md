@@ -1,4 +1,4 @@
-
+Reference[^1]
 #### Variables
 The type will be automatically assigned based on attributed value
 
@@ -28,3 +28,5 @@ By convention **constants** are declared in **UPPER CASE**
 #### Tags
 ***
 #variables #contants
+
+[^1]: [Variaveis e constantes](https://github.com/digitalinnovationone/trilha-python-dio/blob/main/00%20-%20Fundamentos/variaveis_constantes.py)
