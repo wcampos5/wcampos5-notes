@@ -13,7 +13,7 @@ Syntax:
 |my_list = []|Declare an empty list|#emptylistsintaxe|
 |my_fruits = ["fruit1","fruit2"]|List with two items|#listitems|
 |letters = list("Python")|letters\[0\] = "P"|#listconstructor|
-|numbers = list(range(10))|numbers\[10\] = 9|#listconstructor|
+|numbers = list(range(10))|numbers\[10\] = 9 |#listconstructor|
 
 
 #### Nested List / Matrix

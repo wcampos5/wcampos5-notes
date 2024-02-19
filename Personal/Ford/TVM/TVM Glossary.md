@@ -1,3 +1,6 @@
+#sigla #acronumous
+
+
 |***ACRONIM***|***MEANING***|***TAG***|
 |-------|-------|---|
 |DGA| Design Gap Analisys|#dga|
@@ -12,6 +15,7 @@
 |Basket||#basket| 
 |Running Change Process||#runningchange|
 |Mix Rate||#mixrate| 
+|Sit|System Integration Team|#sit|
 
 
 #### Tags

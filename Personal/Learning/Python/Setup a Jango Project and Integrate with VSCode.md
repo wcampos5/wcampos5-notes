@@ -11,10 +11,20 @@ py -m venv projectFolder
 - Go the that folder project
 - type:
 ```
+pipenv shell
+```
+This will open a new shell session in the virtual environment
+
+Run:
+```
+./script/activate
+```
+...and *deactivate* to exit.
+
+Install the Django framework
+```
 pipenv install jango
 ```
-
-This will open a new shell session in the virtual environment
 
 - Use django-admin to create a new django project setup in this directory.
  ```

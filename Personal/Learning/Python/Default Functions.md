@@ -21,9 +21,8 @@ class int(object)
  |  int(x, base=10) -> integer
  >...
 
-#range 
 
-|range()|Invokes integrated system help  |
+|range()|  |
 |--------|-----------|
 |start| Initial value|
 |stop|last + 1|
@@ -78,7 +77,7 @@ Wilson Campos...*
 |string|Sequence of characters |Tag|
 |--------|-----------|--|
 |title()|Convert all first letter of the word to upper| #title|
-|strip()|Remove blank spaces from BOTHH side of the word| #strip|
+|strip()|Remove blank spaces from BOTH side of the word | #strip|
 |lstrip()|Remove blank spaces from LEFT side of the word| #lstrip|
 |rstrip()|Remove blank spaces from RIGHT side of the word| #rstrip|
 |center(int, "#")|Complete the spaces with # till 10| #center |
@@ -100,8 +99,6 @@ Wilson Campos...*
 |reverse()|Reverse the list sequence.|#listreverse|
 |sort()|Order the list. If passed. It is NOT related with the ===sorted() function=== | #listsort #listsortreverse|
 |len()|Number the itens in the list| #listlen #listlength|
-
-
 
 #### sorted() 
 #sorted #sortedfunction
@@ -127,6 +124,20 @@ print(lista_reversa)
 >\['c', 'js', 'java', 'python', 'csharp'\]
 >\['python', 'csharp', 'java', 'js', 'c'\]
 
+#### Range(start, end, step)
+#range
+In the true this function does create the list, it create a iterable reference to it. It's is a very efficiently way to avoid memory waist.
+
+>[!example]
+>	list_numbers = range(10)
+>	print(list_numbers)
+>>[!important] Will print
+>>range(0, 10)
+
+But if you really wanna the list you can do:
+```python
+print(list(range(10)))
+```
 
 
 

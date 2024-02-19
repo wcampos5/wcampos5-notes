@@ -4,64 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "0a15428b989df61c",
+        "id": "57e06d2cd82b8554",
         "type": "tabs",
         "children": [
           {
-            "id": "a11098af1587ec9c",
+            "id": "c7108c152e028e90",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/Learning/Python/Functions.md",
+                "file": "Personal/Learning/Qlik/Documentation.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f7ecb0c7ed20f969",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal/Learning/Jira/Ford Deployment.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d9851a03f78de7d7",
+            "id": "d342ad19a5ef4e3f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/Learning/Python/Inheritance.md",
+                "file": "Personal/Learning/GCP/Criando uma nova URL (Ford).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "33f41b37bfb801ee",
+            "id": "bd8e7a263d4cdb4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/Learning/Python/Encapsulation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "060ed325a594e761",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal/Learning/Python/Polymorphism.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1c76ddde16ab2830",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal/Learning/Python/Conventions.md",
+                "file": "Personal/Learning/Git/Github SSH Key and Personal Token.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#convent",
+                "query": "ssh",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +102,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -134,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/Learning/Python/Polymorphism.md",
+                "file": "Personal/Learning/Git/Github SSH Key and Personal Token.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/Learning/Python/Polymorphism.md",
+                "file": "Personal/Learning/Git/Github SSH Key and Personal Token.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/Learning/Python/Polymorphism.md"
+                "file": "Personal/Learning/Git/Github SSH Key and Personal Token.md"
               }
             }
           }
@@ -195,54 +184,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "060ed325a594e761",
+  "active": "bd8e7a263d4cdb4b",
   "lastOpenFiles": [
-    "Personal/Learning/Python/Encapsulation.md",
-    "Personal/Learning/Python/Polymorphism.md",
-    "Personal/Learning/Python/Inheritance.md",
-    "Personal/Learning/Python/Conventions.md",
-    "Personal/Learning/Python/Files/class_diagram_encapsulation.png",
-    "Personal/Learning/Python/Abstract Classes - Interfaces.md",
-    "Personal/Learning/Python/Files/class_diagram_multiple_inheritance.png",
-    "Personal/Learning/Python/Files/class_diagram_inheritance.png",
-    "Personal/Learning/Python/Class Methods and Static Methods.md",
-    "Personal/Learning/Python/Class and Instance Attributes.md",
-    "Personal/Learning/Python/Classes e Objetos.md",
-    "Personal/Learning/Python/Functions.md",
-    "2023-11-18.md",
-    "Personal/Learning/Python/First Class Objects.md",
+    "Personal/Learning/Git/aa Git Index.md",
+    "Personal/Learning/Qlik/Deployment - Pilot.md",
+    "Personal/Learning/Jira/Ford Deployment.md",
+    "Personal/Learning/Qlik/Documentation.md",
+    "Personal/Learning/Qlik/Analyze and Visualize Data.md",
+    "Personal/Ford/TVM/Projects/Fuel System/Fuel System Quality - Dashboard.md",
+    "Personal/Learning/GCP/Criando uma nova URL (Ford).md",
+    "Personal/Learning/Jira/Jira Scrum x Kanban.md",
+    "Personal/Ford/CRID2/Access.md",
+    "Personal/Learning/GCP/Cloud Run.md",
+    "Personal/Ford/TVM/TVM Process 1.md",
+    "Personal/Ford/TVM/TVM Process.md",
+    "Personal/Ford/TVM/TVM Index.md",
+    "Personal/Learning/HTTP Stuffs/Métodos HTTP, códigos de status e tipos de resposta.md",
     "Personal/Learning/Python/Data Structure - List.md",
-    "Personal/Learning/Python/Data Structure - Tuple.md",
-    "Personal/Learning/Python/Data Structure - Dictionaries.md",
-    "Personal/Learning/Python/Default Functions.md",
-    "Personal/Learning/Python/Data Structure - Set.md",
-    "Personal/Learning/Python/Project 1 - Bank.md",
-    "Personal/Learning/Python/Strings.md",
-    "Personal/Ford/LDAP CDSID Documentation.md",
-    "Personal/Ford/LDAP - FDS Document.md",
-    "Personal/Ford/How to setup a new application.md",
-    "Template-notes/Title.md",
+    "Personal/Learning/Python/Conventions.md",
+    "Personal/Learning/Python/Setup a Jango Project and Integrate with VSCode.md",
     "Personal/Ford/CRID2/CRID2 Index.md",
-    "Personal/Learning/Python/Repetition Structures (Loop).md",
-    "Personal/Learning/Python/Conditional Structures.md",
-    "Personal/Learning/Python/Indentation and Blocks.md",
-    "Personal/Learning/HTTP Stuffs",
-    "Personal/Ford/CRID2/Files/crid_request_access_screen3.png",
-    "Personal/Ford/CRID2/Files/crid_request_access_screen2.png",
-    "Personal/Ford/CRID2/Files/crid_request_access_screen1.png",
-    "Template-notes",
-    "Pasted image 20231128104321.png",
-    "Personal/Learning/Python/Files/python_types.png",
-    "Personal/Learning/Python/Files",
-    "Personal/Learning/Python",
-    "Personal/Learning/Podman/Files/podman_proxy_setting.png",
-    "Personal/Learning/Podman/Files/quay_generated_podman_login.png",
-    "Personal/Ford/Files/proxy.bat",
-    "Personal/Ford/Files",
-    "Personal/Ford/TVM/Files",
-    "Personal/Ford/TVM",
-    "Personal/Ford/CRID2/Files",
-    "Personal/Ford/CRID2/New folder",
+    "Personal/Learning/Jira",
+    "Personal/Learning/Qlik/QlikSense - Alteryx Office Hours.md",
+    "Personal/Learning/Qlik/Files/Q_A_Pilot.png",
+    "Personal/Learning/Qlik/Untitled.md",
+    "Personal/Learning/Python/Data Structure - Dictionaries.md",
+    "Personal/Ford/TVM/TVM Glossary.md",
+    "Personal/Learning/GCP/Acrônimos (GCP).md",
+    "Personal/Ford/TVM/Meeting the team.md",
+    "Personal/Ford/TVM/Projects/Fuel System/Enhancements.md",
+    "Personal/Ford/CRID2/Glossary.md",
+    "Personal/Ford/TVM/Projects/Fuel System",
+    "Personal/Ford/TVM/Projects",
+    "Personal/Learning/Python/Untitled",
+    "Personal/Learning/Powershell",
+    "Personal/Learning/Python/Selenium",
+    "Personal/Learning/Python/Pandas",
+    "Personal/Learning/Python/Numpy",
+    "Personal/Ford/GTC - Global Total Cost/Training/GTC Degreed Pathway/Corrosion/files",
+    "Personal/Ford/GTC - Global Total Cost/Training/GTC Degreed Pathway/Corrosion",
+    "Personal/Ford/GTC - Global Total Cost/Training/GTC Degreed Pathway/Functional Safety/files/functional_safety_process.png",
+    "Personal/Ford/GTC - Global Total Cost/Training/GTC Degreed Pathway/Functional Safety/files/function_safe_over_vmodel.png",
+    "Personal/Ford/GTC - Global Total Cost/Training/GTC Degreed Pathway/FMA Training/files/fma_timming_and_delivery_tools.png",
+    "Personal/Ford/GTC - Global Total Cost/Training/GTC Degreed Pathway/FMA Training/files/FMA_structure_tool_process.png",
+    "Personal/Ford/GTC - Global Total Cost/Training/GTC Degreed Pathway/PDTEC - Problem Solving/Systems Engineering Fundamentals/Files/basic_development_timeline.png",
+    "Personal/Ford/GTC - Global Total Cost/Training/GTC Degreed Pathway/PDTEC - Problem Solving/Systems Engineering Fundamentals/Files/systemv.png",
+    "Personal/Ford/GTC - Global Total Cost/Training/GTC Degreed Pathway/PDTEC - Problem Solving/Systems Engineering Fundamentals/Files/system_engineering_process.png",
+    "Personal/Ford/GTC - Global Total Cost/Training/GTC Degreed Pathway/PDTEC - Problem Solving/Systems Engineering Fundamentals/Files/system_thinking_principles_vehicle_holistic.png",
+    "Personal/Ford/GTC - Global Total Cost/Training/GTC Degreed Pathway/PDTEC - Problem Solving/Systems Engineering Fundamentals/Files/system_thinking_principles_vehicle.png",
     "Untitled.canvas"
   ]
 }
