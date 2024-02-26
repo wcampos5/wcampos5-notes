@@ -1,3 +1,5 @@
+#tekton #debug #tektondebug
+***
 
 Go to the desired task before the failure point then add a sleep
 ```
