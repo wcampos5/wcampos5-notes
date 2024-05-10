@@ -18,6 +18,9 @@ Select the Pod and then ***Terminal***
 
 ![[Pasted image 20231025143208.png]]
 
+>[!warning] pwd -> workspace/output
+
+
 In the Pod it show that you are in the workspace folder.
 Here is were we will start off when you log in the task task container
 

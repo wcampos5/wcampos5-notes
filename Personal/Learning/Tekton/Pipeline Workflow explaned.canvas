@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"2735d3d3553a82bb","type":"group","x":-980,"y":60,"width":860,"height":600,"label":"Untitled group"},
+		{"id":"c4f3377f41599b6f","type":"group","x":-60,"y":-460,"width":700,"height":640,"label":"Untitled group"},
+		{"id":"94e5831451e12aeb","type":"text","text":"```yaml\napiVersion: tekton.dev/b1beta1\nkind: Task\nmetadata: \n\tname: checkout\nspec:\n\tparams:\n\t\t- name: repo-url\n\t\t\tdescription: The URL of the git repo to clone\n\t\t\ttype: string\n\tsteps:\n\t\t- name: checkout\n\t\timage: bitname/git:latest\n\t\tcommand: [git]\n\t\targs: [\"clone\",\"$(params.repo-url)\"]\n\n\n```\n","x":-960,"y":140,"width":820,"height":500},
+		{"id":"0bc054c1d05eb812","type":"text","text":"#### Task","x":-960,"y":80,"width":250,"height":60},
+		{"id":"1f7ae3ead71b8aa2","type":"text","text":"#### Pipeline","x":-40,"y":-440,"width":250,"height":60},
+		{"id":"7d87bb22fac13ee8","type":"text","text":"```yaml\napiVersion: tekton.dev/v1beta1\nkind: Pipeline\nmetadata: \n\tname: pipeline\nspec:\n\tparams:\n\t\t- name: repo-url\n\ttasks:\n\t\t- name: clone\n\t\t  taskRef: \n\t\t\t  name: checkout\n\t\t  params:\n\t\t\t- name: repo-url\n\t\t\t  value: \"$(params.repo-url)\"]\n\n\n```","x":-40,"y":-380,"width":660,"height":540},
+		{"id":"17df793a465988ec","type":"file","file":"Pasted image 20240330101900.png","x":-500,"y":740,"width":262,"height":400},
+		{"id":"5a98afa775e2e615","type":"text","text":"Tasks setup the **variables and its types** as \"$(params.**variable-name**)\" and use it in the steps as arguments to the commands inside the container instantiated.","x":-100,"y":289,"width":483,"height":203},
+		{"id":"a669ce828c425dd1","type":"text","text":"Pipeline refers taskRef by name and **pass** the ==required Task variables== in the Task params section  as name and value pair.","x":660,"y":-21,"width":483,"height":131}
+	],
+	"edges":[
+		{"id":"aa38eaafd42de6c0","fromNode":"17df793a465988ec","fromSide":"top","toNode":"94e5831451e12aeb","toSide":"bottom"}
+	]
+}

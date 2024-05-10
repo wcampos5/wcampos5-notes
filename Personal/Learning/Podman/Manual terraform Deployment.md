@@ -36,6 +36,9 @@ gcloud auth application-default login
 ```
 
 Make sure ===you are in the desired project===
+```Powershell
+gcloud config list
+```
 
 6. Setup proxy for the current session
 ```
@@ -62,6 +65,31 @@ docker build -t us-central1-docker.pkg.dev/ford-fd1f7435faf9d1a3c128a323/ford-co
 docker build -t us-central1-docker.pkg.dev/ford-39136f1b3cee1e5c27702bca/ford-container-images/$reponame:$version $imagePath
 ```
 
+
+>[!info] TODO: Validate below info (Based on Sarah's Notepad)
+- Copie a pasta envs e terraform de algum projeto para o projeto que deseja deployar
+
+- Na pasta .terraforma substitua o arquivo main.tf pelo arquivo abaixo (caso seja um scheduler), e substitua tudo que for necessário
+
+https://github.ford.com/gcp/tfm-cloud-run/blob/main/examples/jobs_scheduler/main.tf
+
+- Atualize as variáveis necessárias nos arquivos main das envs
+
+- Abra a pasta do envs que deseja deployar (dev, prod, etc) no terminal e dê o commando 
+terraform init
+
+-Para testa o que vai ser dê o commando 
+terraform plan
+
+talvez vc tenha que usar o
+
+terraform plan -lock=false
+
+- para efetivar sua mudança dê o comando
+
+terraform apply
+
+OBS: ao atualizar enviar as pastas envs e terraform não enviar a pasta .terraform
 ***
 #### Errors:
 

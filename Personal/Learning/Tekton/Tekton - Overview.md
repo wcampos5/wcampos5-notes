@@ -21,7 +21,7 @@ Run over Kubernets cluster ( anywhere you can run a Kubernetes cluster, you can 
 #concept #buildingblocks #workflow
 
 ###### Event
-external avenge that fires are trigger.
+external event that fires are trigger.
 >[!example] Example Pull request or push
 
 ###### Trigger

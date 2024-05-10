@@ -7,7 +7,7 @@ Acc. to [[Tekton - Physical Build Blocks |prior explanation]] we are going to cr
 
 #### Task file
 
-Create a ==new Task== YAML (know as Kubernets manifest) file, to hold our steps.
+Create a ==new task.yaml== YAML (know as Kubernets manifest) file, to hold our steps.
 #task #step #new
 
 >[!example] Final gitclone.yaml file
@@ -34,7 +34,7 @@ spec:
 1. Every manifest must defines API version to use:
 #taskfile #tasktemplate #task
 ```
-apiVersion: tekton.dev/b1beta1	
+apiVersion: tekton.dev/v1beta1	
 ```
 
 2. Tekton defines new CRDs, you need to tell Kubernets what kind resource to use
@@ -42,7 +42,7 @@ apiVersion: tekton.dev/b1beta1
 kind: Task
 ```
 
-3. You name give a task name into *metadata* section
+3. You need to give a task name into *metadata* section
 ```
 metadata: 
 	name: checkout
@@ -94,8 +94,8 @@ steps:
 >We need to pass the URL as argument, but currently we don't have
 
 9. How to solve this?
->[!success] Move *steps: * session down
->We need to move the *steps: * session down to have some room (space in between) and them add params inside the *spec: *session
+>[!success] Move *steps * section down
+>We need to move the *steps: * section down to have some room (space in between) and them **add params** inside the *spec: *session
 
 ```
 spec:
@@ -139,6 +139,6 @@ spec:
     
 
 
-[[Tekton - Physical Build Blocks]] | [[]]
+[[Tekton - Physical Build Blocks]] | [[Creating a new Pipeline - Pipeline file]]
 
 [^1]: [Pipeline creation](https://www.coursera.org/learn/continuous-integration-and-continuous-delivery-ci-cd/lecture/0Srjv/building-a-tekton-pipeline)

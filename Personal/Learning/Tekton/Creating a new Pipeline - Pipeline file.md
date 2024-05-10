@@ -7,13 +7,13 @@ Acc. to [[Tekton - Physical Build Blocks |prior explanation]] we are going to cr
 
 #### Pipeline file
 
-Create a ==new Pipeline== YAML (know as Kubernets manifest) file, to hold our Tasks.
-#pipeline  #new
+Create a ==new pipeline.yaml== YAML (know as Kubernets manifest) file, to hold our Tasks.
+#pipeline  #new #newpipeline
 
 >[!example] Final pipeline.yam file
 
 ```yaml
-apiVersion: tekton.dev/b1beta1
+apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata: 
 	name: pipeline
@@ -23,7 +23,7 @@ spec:
 	tasks:
 		- name: clone
 		  taskRef: 
-			  name: checout
+			  name: checkout
 		  params:
 			- name: repo-url
 			  value: "$(params.repo-url)"]
@@ -34,7 +34,7 @@ spec:
 1. Every manifest must defines API version to use:
 #taskfile #tasktemplate #task
 ```
-apiVersion: tekton.dev/b1beta1
+apiVersion: tekton.dev/v1beta1
 
 	
 ```
@@ -97,3 +97,8 @@ spec:
 			  value: "$(params.repo-url)"]
 ```
 
+
+***
+[[Creating a new Pipeline - Task File]] | [[Add Task or Pipeline - Kubectl]]
+
+[^1]: [Pipeline creation](https://www.coursera.org/learn/continuous-integration-and-continuous-delivery-ci-cd/lecture/0Srjv/building-a-tekton-pipeline)

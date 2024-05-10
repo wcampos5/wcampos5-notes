@@ -7,13 +7,13 @@ Tekton and Pipelines[^1]
 ![[Tekton_physical_building_blocks.png]]
 ###### Event Listener CRD
 #eventlistener #triggerbinding #triggertemplate 
-It listens for events like pull requests or commits o a Git Repository.
+It listens for events like pull requests or commits on a Git Repository.
 **Events are associated** with 2 other CRDs:
 - TriggerBinding
 	Captures parameters from the event that required to run pipeline.
 - TriggerTemplate
-	Takes the paramenter from the TriggerBinding and associates them with the PipelineRun.
-
+	Takes the parameters from the TriggerBinding and associates them with the PipelineRun.
+	
 	Workflow -->
 		When triggered by an event, the TriggerTemplate create a PipelineRun, passing along any parameters from the triggered event, or persistent storage, that the pipeline might need.
 >[!success] PipelineRuns can be also created manually without use events
@@ -64,6 +64,6 @@ Since step are always running in series, the containers will be created one at a
 
 
 ***
-[[Tekton - Overview]] | [[]]
+[[Tekton - Overview]] | [[Creating a new Pipeline - Task File]]
 
 [^1]: [Tekton and Pipelines](https://www.coursera.org/learn/continuous-integration-and-continuous-delivery-ci-cd/lecture/OpMLt/introduction-to-tekton-and-pipelines)

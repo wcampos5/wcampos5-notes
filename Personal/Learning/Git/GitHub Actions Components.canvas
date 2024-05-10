@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"96c592ff17ff094e","type":"group","x":-500,"y":-180,"width":800,"height":431,"label":"Workflow - YAML"},
+		{"id":"ac8c7a75c402f57a","type":"group","x":-1160,"y":-180,"width":328,"height":520,"label":"Triggers"},
+		{"id":"cba15c91f4311849","type":"group","x":-460,"y":-111,"width":330,"height":287,"label":"🖥️ Runner 1 (VM/Container)"},
+		{"id":"48a981553d39fa67","type":"group","x":-60,"y":-111,"width":330,"height":223,"label":"🖥️ Runner 2 (VM/Container)"},
+		{"id":"5073763cebc741ae","type":"text","text":"#githubaction","x":-342,"y":-500,"width":250,"height":60},
+		{"id":"b9adc5495fbf53cf","type":"text","text":"Job 1","x":-440,"y":-91,"width":290,"height":247},
+		{"id":"df809947c2d4a398","type":"text","text":"**Step 1: ** Run Action\n**Step 2: ** Run Script\n**Step 3: ** Run Script\n**Step 4: ** Run Action","x":-413,"y":-25,"width":236,"height":154},
+		{"id":"527f2a949037b98f","type":"text","text":"Job 2","x":-40,"y":-91,"width":290,"height":183},
+		{"id":"fbc5f35667f622a2","type":"text","text":"**Step 1: ** Run Action\n**Step 2: ** Run Script\n**Step 3: ** Run Script","x":-8,"y":-31,"width":233,"height":115},
+		{"id":"20c507391fcf2a18","type":"text","text":"Event","x":-780,"y":-9,"width":114,"height":36},
+		{"id":"e5b39f059b99917a","type":"text","text":"![[Pasted image 20240504120754.png]]","x":-1140,"y":-160,"width":107,"height":80},
+		{"id":"ae73a5b220eae75f","x":-130,"y":180,"width":417,"height":60,"type":"text","text":"```\n.github/workflows/workflow.yaml\n```"},
+		{"id":"df5e024f7a050e5c","x":-478,"y":340,"width":523,"height":554,"type":"text","text":">[!success] 🖥️ - Runners\n>It is a server that runs your workflows when they are triggered\n>> - Run a **single** _job_ at the time\n>> - GitHub provides Linux, Windows, and macOS runners to run your workflows\n>> - each workflow run executes in a fresh, newly-provisioned virtual machine\n>> - GitHub also offers larger runners [About Larger Runners](https://docs.github.com/en/actions/using-github-hosted-runners/using-larger-runners)\n>> - Hosting your own runners\n>>    [Hosting your own runners](https://docs.github.com/en/actions/hosting-your-own-runners)\n"},
+		{"id":"f1450e2f5a1d1e65","x":79,"y":340,"width":363,"height":324,"type":"text","text":">[!info] Jobs\n>A set of _steps_\n>> - Shell scripting (to be executed)\n>> - Action (to be run)\n>[Using Jobs](https://docs.github.com/en/actions/using-jobs)"},
+		{"id":"3bc9d2f0dcfa3ff7","type":"text","text":">[!warning] Actions\n>\t_action_ is a custom application for the GitHub Actions platform that execute a complex but frequently repeated task.\n>Usage cases:\n>> - Pull git repos\n>> - Setup toolchain for build enviromnments\n>> - Setup authentication to cloud providers\n>> - You can write your own actions\n>\n>[Creting Action](https://docs.github.com/en/actions/creating-actions)\n\n\n\n","x":480,"y":340,"width":492,"height":535},
+		{"id":"51fd949b4e353f1b","type":"text","text":"🧑‍💻 - Manually","x":-1140,"y":240,"width":288,"height":51},
+		{"id":"d4289c61c59fc97b","type":"text","text":"🕜 - Scheduled","x":-1140,"y":145,"width":288,"height":71},
+		{"id":"0fa341b8677d6ec6","type":"text","text":"```\nrepository_dispatch\n```\n(Outside Github and trigger the dispatch)","x":-1140,"y":-60,"width":288,"height":178}
+	],
+	"edges":[
+		{"id":"0293dc25aef38b6f","fromNode":"cba15c91f4311849","fromSide":"right","toNode":"48a981553d39fa67","toSide":"left"},
+		{"id":"3f6d0abb4912ee3f","fromNode":"20c507391fcf2a18","fromSide":"right","toNode":"96c592ff17ff094e","toSide":"left"},
+		{"id":"2dad9bfda5712d19","fromNode":"e5b39f059b99917a","fromSide":"right","toNode":"20c507391fcf2a18","toSide":"top"},
+		{"id":"b0b61467c0f875a6","fromNode":"d4289c61c59fc97b","fromSide":"right","toNode":"20c507391fcf2a18","toSide":"bottom"},
+		{"id":"d06d1b3bbc72d364","fromNode":"51fd949b4e353f1b","fromSide":"right","toNode":"20c507391fcf2a18","toSide":"bottom"},
+		{"id":"56a8398fb67134ca","fromNode":"0fa341b8677d6ec6","fromSide":"right","toNode":"20c507391fcf2a18","toSide":"left"}
+	]
+}

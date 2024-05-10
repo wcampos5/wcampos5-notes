@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"cc45061fa43c0a5b","type":"text","text":"#m1mlschema #m1mlstructure","x":-70,"y":-1260,"width":370,"height":60},
+		{"id":"ee96d0ceef2cdd78","type":"text","text":"📜mach1ml.dev.yaml","x":260,"y":-955,"width":285,"height":60},
+		{"id":"a994ae4db82bc9df","type":"text","text":"📜mach1ml.qa.yaml","x":260,"y":-865,"width":285,"height":60},
+		{"id":"1f48c9e70ce379c8","type":"text","text":"📜mach1ml.prod.yaml","x":260,"y":-785,"width":285,"height":60},
+		{"id":"1f84306bbd967282","type":"text","text":"📜assert_dependencies.sh","x":260,"y":-670,"width":320,"height":60},
+		{"id":"274d1d91196bdb33","type":"text","text":"📜checkmarx.sh","x":260,"y":-595,"width":320,"height":60},
+		{"id":"cc57d17ea9d018a9","type":"text","text":"📜render.sh","x":260,"y":-520,"width":320,"height":60},
+		{"id":"af1459a6800aedba","type":"text","text":"📂cicd","x":-640,"y":-740,"width":129,"height":60},
+		{"id":"609f0b1cd11da6d0","type":"text","text":"cicd.yaml","x":-420,"y":-740,"width":179,"height":60},
+		{"id":"0b91f9ebed62207d","type":"text","text":"📂files","x":-275,"y":-1080,"width":145,"height":60},
+		{"id":"e594ee468617c02f","type":"text","text":"Under Task the ScriptPath\ntarget its own scripts. ","x":-140,"y":-610,"width":320,"height":90},
+		{"id":"aed71d0e65e401bf","type":"text","text":"Based on type: _git-branch_ & name maps to a related \nENV_NAME choosing a specific mach1ml<env>.yaml","x":-140,"y":-897,"width":320,"height":142},
+		{"id":"300a9d1a2c548014","type":"text","text":"📂scripts","x":-275,"y":-420,"width":175,"height":60},
+		{"id":"e40cd2349ce3eb47","type":"text","text":">[!warning] M1ML Tekton Security Groups\n Can be found in the GCP Manage Project Environment session down below\n","x":-660,"y":-140,"width":419,"height":235},
+		{"id":"cadd60b9fe6ddcaf","type":"text","text":">[!warning] Trigger pipeline access\nIn order to run the pipeline user must be part of  the Developer Security Group\n","x":-159,"y":-140,"width":359,"height":215}
+	],
+	"edges":[
+		{"id":"2e65e720731af326","fromNode":"af1459a6800aedba","fromSide":"right","toNode":"609f0b1cd11da6d0","toSide":"left"},
+		{"id":"ec7629fedb84017a","fromNode":"af1459a6800aedba","fromSide":"top","toNode":"0b91f9ebed62207d","toSide":"left","toEnd":"none"},
+		{"id":"0eabb7d5587123dc","fromNode":"aed71d0e65e401bf","fromSide":"right","toNode":"ee96d0ceef2cdd78","toSide":"left"},
+		{"id":"50d47b2ce17e30fd","fromNode":"609f0b1cd11da6d0","fromSide":"right","toNode":"aed71d0e65e401bf","toSide":"left"},
+		{"id":"07a7fa8560646ad0","fromNode":"0b91f9ebed62207d","fromSide":"right","toNode":"ee96d0ceef2cdd78","toSide":"top"},
+		{"id":"4c3fa28e29fba43c","fromNode":"e594ee468617c02f","fromSide":"right","toNode":"1f84306bbd967282","toSide":"left"},
+		{"id":"c35b995f3e57901f","fromNode":"609f0b1cd11da6d0","fromSide":"right","toNode":"e594ee468617c02f","toSide":"left"},
+		{"id":"991298316681f7c6","fromNode":"af1459a6800aedba","fromSide":"bottom","toNode":"300a9d1a2c548014","toSide":"left","toEnd":"none"},
+		{"id":"3acd8021197cd405","fromNode":"300a9d1a2c548014","fromSide":"right","toNode":"cc57d17ea9d018a9","toSide":"bottom"},
+		{"id":"365d10385a3496af","fromNode":"e594ee468617c02f","fromSide":"right","toNode":"274d1d91196bdb33","toSide":"left","toEnd":"none"},
+		{"id":"2c1404e08c4d784f","fromNode":"e594ee468617c02f","fromSide":"right","toNode":"cc57d17ea9d018a9","toSide":"left","toEnd":"none"},
+		{"id":"ef94ff5e05ec0041","fromNode":"aed71d0e65e401bf","fromSide":"right","toNode":"a994ae4db82bc9df","toSide":"left","toEnd":"none"},
+		{"id":"44d53cb2412a5ae3","fromNode":"aed71d0e65e401bf","fromSide":"right","toNode":"1f48c9e70ce379c8","toSide":"left","toEnd":"none"}
+	]
+}

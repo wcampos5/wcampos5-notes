@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"719023853dabbdf0","type":"text","text":"[webhook-service](https://console-openshift-console.apps.pd103.caas.gcp.ford.com/k8s/ns/prognostics-cr/routes/webhook-service)","x":-440,"y":-80,"width":300,"height":60},
+		{"id":"bfb942851d2c5b04","type":"text","text":"[el-el-prognostics-cr-ecoboost-services](https://console-openshift-console.apps.pd103.caas.gcp.ford.com/k8s/ns/prognostics-cr/services/el-el-prognostics-cr-ecoboost-services)","x":0,"y":-100,"width":250,"height":100},
+		{"id":"70c17e1092bfae86","type":"text","text":"[el-prognostics-cr-ecoboost-services](https://console-openshift-console.apps.pd103.caas.gcp.ford.com/k8s/ns/prognostics-cr/triggers.tekton.dev~v1alpha1~EventListener/el-prognostics-cr-ecoboost-services)","x":360,"y":-100,"width":250,"height":100},
+		{"id":"5e1b472da1efcb18","type":"text","text":"webhook-service.apps.pd103.caas.gcp.ford.com","x":0,"y":-300,"width":250,"height":120},
+		{"id":"ef334c4a472d618b","type":"text","text":"  \ntb-prognostics-cr-services-pr-binding\n","x":720,"y":-20,"width":250,"height":100},
+		{"id":"8f332e57d2345a0d","type":"text","text":"  \ntb-prognostics-cr-services-push-binding","x":720,"y":-180,"width":250,"height":100},
+		{"id":"e6e441403aaae6b7","type":"text","text":"  \ntt-prognostics-cr-services","x":1120,"y":-100,"width":320,"height":80},
+		{"id":"c8bf70d28494fc4c","type":"text","text":"Github","x":360,"y":-420,"width":250,"height":60},
+		{"id":"c577e86d79dffac7","x":-440,"y":-450,"width":250,"height":60,"type":"text","text":"#commonpipeline "}
+	],
+	"edges":[
+		{"id":"36b4d4e637defdc7","fromNode":"70c17e1092bfae86","fromSide":"right","toNode":"ef334c4a472d618b","toSide":"left"},
+		{"id":"323ab681c6f2929b","fromNode":"70c17e1092bfae86","fromSide":"right","toNode":"8f332e57d2345a0d","toSide":"left"},
+		{"id":"188655983acc59d8","fromNode":"70c17e1092bfae86","fromSide":"top","toNode":"e6e441403aaae6b7","toSide":"top"},
+		{"id":"0f24b4a7d4ff1ce4","fromNode":"8f332e57d2345a0d","fromSide":"right","toNode":"e6e441403aaae6b7","toSide":"left"},
+		{"id":"15b1e566b14359fa","fromNode":"ef334c4a472d618b","fromSide":"right","toNode":"e6e441403aaae6b7","toSide":"left"},
+		{"id":"410cf4bcc5e3876c","fromNode":"719023853dabbdf0","fromSide":"top","toNode":"5e1b472da1efcb18","toSide":"left"},
+		{"id":"4615a1ac69a4f9de","fromNode":"5e1b472da1efcb18","fromSide":"bottom","toNode":"bfb942851d2c5b04","toSide":"top"},
+		{"id":"0f9ff272ec02db2d","fromNode":"bfb942851d2c5b04","fromSide":"right","toNode":"70c17e1092bfae86","toSide":"left"},
+		{"id":"b275db94016f966b","fromNode":"c8bf70d28494fc4c","fromSide":"left","toNode":"5e1b472da1efcb18","toSide":"right"}
+	]
+}
