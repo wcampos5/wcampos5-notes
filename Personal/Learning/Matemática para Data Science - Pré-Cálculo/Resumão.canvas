@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"6b05ab2dd36f5086","type":"text","text":"#### Conjuntos Numéricos\n$$ \\Bbb{N}=0,1,2,3...$$\n$$ \\Bbb{Z}={-2,-1,0,1,2,3...}$$\n\n$$\n\\Bbb{N*}\\ ou\\ \\Bbb{Z*}\\ exclui\\ o\\ 0\n$$\n\n$$Q = {x|x = \\frac{a}{b}, a \\in Z\\ e\\ b \\in Z*}\n$$\nx, de modo que x é o resultado (razão) da divisão de dois números inteiros, sendo *b* <> de 0\n\n\n$$ \\Bbb{R}eais = Contem\\ todos\\ os\\  conjuntos\\ acima$$$$\\Bbb{I}rracionais$$\n>[!quote] É um número real que NÃO pode ser obtido pela >divisão de dois números inteiros, ou seja, são números reais >mas não racionais.\n\n\n\n","x":-800,"y":80,"width":665,"height":549},
+		{"id":"a6abbc76857116f5","type":"text","text":"#### Função\n\n>[!quote] Matemáticamente  falando, função é...\n>Função é algo que leva elementos do conjunto A em elementos do Conjunto B\n>x\n>$$f:A \\to B$$\n\nPor convenção os elementos do Conjunto\n- **A** \n\t- são chamados de *(x)*\n- **B**\n\t- são chamados de *(y)*\n\nFunção é a entrada x, processada pela f(x), gerando uma saída y\n\nLogo, pode se dicer que:\n$$y=f(x)$$\n\n\n","x":-20,"y":16,"width":664,"height":677},
+		{"id":"e7ee470f6909a3d4","x":889,"y":16,"width":571,"height":677,"type":"text","text":"#### Dominio, Contradominio e Imagem\n\n[[Dominio, Contradominio e Imagem#^2c9a16]]\n"}
+	],
+	"edges":[
+		{"id":"7bf8356c2137e9c9","fromNode":"6b05ab2dd36f5086","fromSide":"top","toNode":"a6abbc76857116f5","toSide":"top"}
+	]
+}

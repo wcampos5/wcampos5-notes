@@ -2,7 +2,7 @@ SRE Metrics[^1]
 Default Library Configuration[^2]
 SRE Metrics Library Source^3
 ***
-#sre #metrics #prometheus #sreproperties #prometheusproperties
+#sre #metrics #prometheus #sreproperties #prometheusproperties #compatibility
 ## Compatibility
 
 |                                                 |                   |                   |                   |                   |

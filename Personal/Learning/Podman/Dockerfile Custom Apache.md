@@ -1,4 +1,4 @@
-#apche
+#apache
 
 - [ ] Create a directory to the images 
 #newitem #powershell
@@ -25,7 +25,7 @@ wget http://site1368633667.hospedagemdesites.ws/site1.zip
 ```
 
 Unzip the file to be compressed with tar.gz
->[!warning] ADD command un-compress tar.gz file in the container
+>[!warning] ADD command un-compress tar files in the container
 #add #dockerfileadd
 
 - [ ] Unzip files

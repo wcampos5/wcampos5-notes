@@ -1,11 +1,11 @@
-#installation
+installation
 Get Python from:
 [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
 >[!warning]
->Make sure to enable Add to Path
->Make sure to install pip custom feature
->Make sure to enable long path pass through
+>:obs_checkbox_glyph:   Enable Add to Path 
+>:obs_checkbox_glyph:  Install pip custom feature
+>:obs_checkbox_glyph:  Enable long path pass through
 
 Install Python Installation Package (PIP)
 #pip #pipdefinition

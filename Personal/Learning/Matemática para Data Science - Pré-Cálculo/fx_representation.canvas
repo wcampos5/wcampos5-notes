@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"aa8475c9ad806c29","type":"text","text":"f(x)","x":40,"y":-30,"width":93,"height":60},
+		{"id":"027486874bdd55a8","type":"text","text":"Processamento","x":-16,"y":80,"width":205,"height":60,"color":"6"},
+		{"id":"199b5857c90c813b","type":"text","text":"x","x":-191,"y":-30,"width":65,"height":60},
+		{"id":"911f63b64f4d42c7","type":"text","text":"Entrada","x":-225,"y":80,"width":139,"height":60,"color":"4"},
+		{"id":"b677dcc851eac124","type":"text","text":"$$\ny=f(x)\n$$","x":260,"y":-36,"width":200,"height":73},
+		{"id":"e7f763b52223ceed","type":"text","text":"Retorno","x":242,"y":80,"width":138,"height":60,"color":"2"},
+		{"id":"873da421a2b44943","type":"text","text":"Dominio","x":-229,"y":160,"width":149,"height":36,"color":"4"},
+		{"id":"1b23a096dc40d734","type":"text","text":"Imagem","x":240,"y":160,"width":143,"height":36,"color":"2"},
+		{"id":"6bdca354b7ebb04f","type":"text","text":"Contra\nDominio","x":242,"y":220,"width":143,"height":80,"color":"3"},
+		{"id":"96b8deec987360ec","x":-243,"y":-140,"width":169,"height":60,"type":"text","text":"Conjunto A"},
+		{"id":"2782f4e14b54cf6f","x":276,"y":-140,"width":168,"height":60,"type":"text","text":"Conjunto B"}
+	],
+	"edges":[
+		{"id":"9bf79a72e52f4a5c","fromNode":"199b5857c90c813b","fromSide":"right","toNode":"aa8475c9ad806c29","toSide":"left"},
+		{"id":"26244fd4848aa4e8","fromNode":"aa8475c9ad806c29","fromSide":"right","toNode":"b677dcc851eac124","toSide":"left"}
+	]
+}

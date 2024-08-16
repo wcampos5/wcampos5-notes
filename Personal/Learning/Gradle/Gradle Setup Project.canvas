@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"82a6d33df70828e6","x":-680,"y":-229,"width":617,"height":1149,"type":"group","label":"settings.gradle"},
+		{"id":"3cfb412de866bd49","type":"group","x":20,"y":-320,"width":290,"height":261,"label":"Gradle Sub-projects"},
+		{"id":"244e8efd7db918c5","type":"text","text":"⚙️ `include(\"component\")`","x":-460,"y":-209,"width":320,"height":60},
+		{"id":"a84cd2072b1caee8","type":"text","text":"⚙️Looking for additional/external components\n`dependencyResolutionManagement\n`includeBuild`\n\n![[dependency_resolution_mnagement.png]]\n","x":-460,"y":-123,"width":377,"height":535},
+		{"id":"7be93b1583cbb3fb","type":"text","text":":luc_folder_plus: app","x":40,"y":-300,"width":250,"height":60},
+		{"id":"342cc80de3cf9b28","type":"text","text":":luc_folder_plus: business-logic","x":40,"y":-225,"width":250,"height":60},
+		{"id":"cbedb31987853c50","type":"text","text":":luc_folder_plus: data-model","x":40,"y":-139,"width":250,"height":60},
+		{"id":"2afd033d8a56feef","x":-460,"y":466,"width":377,"height":434,"type":"text","text":":luc_plug_zap: Looking for plugins\n`pluginManagement`\n\n![[plugin_management.png]]\n\n\n\n\n"},
+		{"id":"a0784798a96f5b1d","type":"text","text":":luc_folder_plus: my-root-project","x":-1160,"y":320,"width":250,"height":58},
+		{"id":"19bb0193f1850646","type":"text","text":"#gradle #gradlesetup #settings","x":-691,"y":-480,"width":463,"height":60}
+	],
+	"edges":[
+		{"id":"a09b22523c9cc19b","fromNode":"244e8efd7db918c5","fromSide":"right","toNode":"7be93b1583cbb3fb","toSide":"left"},
+		{"id":"74b9445ac8ab154b","fromNode":"244e8efd7db918c5","fromSide":"right","toNode":"342cc80de3cf9b28","toSide":"left"},
+		{"id":"d510a23fc02f2b50","fromNode":"244e8efd7db918c5","fromSide":"right","toNode":"cbedb31987853c50","toSide":"left"},
+		{"id":"9c51a37def33d214","fromNode":"a0784798a96f5b1d","fromSide":"right","toNode":"82a6d33df70828e6","toSide":"left"}
+	]
+}

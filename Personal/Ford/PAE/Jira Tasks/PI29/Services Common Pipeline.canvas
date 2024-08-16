@@ -8,7 +8,11 @@
 		{"id":"8f332e57d2345a0d","type":"text","text":"  \ntb-prognostics-cr-services-push-binding","x":720,"y":-180,"width":250,"height":100},
 		{"id":"e6e441403aaae6b7","type":"text","text":"  \ntt-prognostics-cr-services","x":1120,"y":-100,"width":320,"height":80},
 		{"id":"c8bf70d28494fc4c","type":"text","text":"Github","x":360,"y":-420,"width":250,"height":60},
-		{"id":"c577e86d79dffac7","x":-440,"y":-450,"width":250,"height":60,"type":"text","text":"#commonpipeline "}
+		{"id":"c577e86d79dffac7","type":"text","text":"#commonpipeline  #pipeline","x":-440,"y":-450,"width":440,"height":60},
+		{"id":"5b446d887b97f5e4","x":770,"y":136,"width":250,"height":60,"type":"text","text":"Pipeline"},
+		{"id":"22bccdb2854ccf13","x":770,"y":218,"width":250,"height":60,"type":"text","text":"Pipeline-backuk"},
+		{"id":"c9c83d74f94e9593","x":1116,"y":85,"width":250,"height":60,"type":"text","text":"pipeline-run"},
+		{"id":"9752cf1ac13cabdc","type":"text","text":"manual-pipeline-run","x":1116,"y":196,"width":254,"height":60}
 	],
 	"edges":[
 		{"id":"36b4d4e637defdc7","fromNode":"70c17e1092bfae86","fromSide":"right","toNode":"ef334c4a472d618b","toSide":"left"},
@@ -19,6 +23,9 @@
 		{"id":"410cf4bcc5e3876c","fromNode":"719023853dabbdf0","fromSide":"top","toNode":"5e1b472da1efcb18","toSide":"left"},
 		{"id":"4615a1ac69a4f9de","fromNode":"5e1b472da1efcb18","fromSide":"bottom","toNode":"bfb942851d2c5b04","toSide":"top"},
 		{"id":"0f9ff272ec02db2d","fromNode":"bfb942851d2c5b04","fromSide":"right","toNode":"70c17e1092bfae86","toSide":"left"},
-		{"id":"b275db94016f966b","fromNode":"c8bf70d28494fc4c","fromSide":"left","toNode":"5e1b472da1efcb18","toSide":"right"}
+		{"id":"b275db94016f966b","fromNode":"c8bf70d28494fc4c","fromSide":"left","toNode":"5e1b472da1efcb18","toSide":"right"},
+		{"id":"96ce62d43994d230","fromNode":"c9c83d74f94e9593","fromSide":"left","toNode":"5b446d887b97f5e4","toSide":"right"},
+		{"id":"18063fc1bd33ff22","fromNode":"9752cf1ac13cabdc","fromSide":"left","toNode":"22bccdb2854ccf13","toSide":"right"},
+		{"id":"c7baddce98ac9bb8","fromNode":"e6e441403aaae6b7","fromSide":"right","toNode":"c9c83d74f94e9593","toSide":"right"}
 	]
 }

@@ -4,7 +4,9 @@
 Exception in thread "main" java.io.IOException: Server returned HTTP response code: 401 for URL: https://jfrog.ford.com/artifactory/gradle-distributions/gradle-8.7-bin.zip
 
 ###### Reason
-Invalid or expired credential (Identity Token or API Key)
+Invalid or expired credential (Identity Token or API Key) 
+OR
+Missing local variables set
 
 >[!success] Solution
 >Generate a new one at [jfrog.ford.com](https://jfrog.ford.com/ui/user_profile)
@@ -39,6 +41,7 @@ Update **Repository** URLs in `settings.gradle` from Nexus to JFrog.
 #### Step 4:[¶](https://centralstation.ford.com/docs/default/component/gcpdevguides/EcoBoost_JFrog_Migration/#step-4 "Permanent link")
 
 ### For local build[¶](https://centralstation.ford.com/docs/default/component/gcpdevguides/EcoBoost_JFrog_Migration/#for-local-build "Permanent link")
+#gradlewjfrog #jfrog #gradlew #localbuild
 
 Set the following environment variables and then use build command for local build to work.
 
@@ -52,7 +55,7 @@ export ARTIFACTORY_USER=<JFrog-UserId>
 
 Password not the JFrog-Identity-Token
 ```
-ARTIFACTORY_PASSWORD=<JFrog-Identity-Token>
+export ARTIFACTORY_PASSWORD=<JFrog-Identity-Token>
 ```
 
 ```

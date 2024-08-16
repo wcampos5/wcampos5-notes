@@ -4,7 +4,8 @@
 >[!error] Error: git count & describe
 >Caused by: java.lang.RuntimeException: Unexpected error encountered while trying to obtain git count & describe.
 
->[!success] Solution: Update gradle boost version
+>[!success] Solution: Comment out gradle boost version
+>`//version = gradleBoost.fn.gitVersion()`
 
 ***
 

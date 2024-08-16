@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"d526c4ad05764902","x":-1040,"y":-160,"width":400,"height":400,"type":"group","label":"Pipeline"},
+		{"id":"981a350cbe79df2c","x":-500,"y":-80,"width":400,"height":400,"type":"group","label":"Tasks"},
+		{"id":"b9b13038a26b0571","x":67,"y":392,"width":400,"height":400,"type":"group","label":"Steps"},
+		{"id":"e1691b67c34af240","type":"group","x":-600,"y":460,"width":300,"height":148,"label":"Workspaces"},
+		{"id":"a7c11fc704857f86","type":"text","text":"![[Tekton_physical_building_blocks.png]]\n","x":-191,"y":-385,"width":551,"height":305},
+		{"id":"36f9b7844cbffa8f","type":"text","text":"shared-workspace","x":-580,"y":480,"width":232,"height":36}
+	],
+	"edges":[]
+}

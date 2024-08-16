@@ -20,7 +20,7 @@ git remote -v
 
 5. To push the changes in your local repository to GitHub.com, run the following command.
 ```bash
-git push origin man
+git push origin main
 ```
 
 ***

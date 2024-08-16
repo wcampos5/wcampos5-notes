@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"0d9102a90a7268ff","x":-660,"y":-420,"width":1120,"height":580,"type":"group","label":"Reais"},
+		{"id":"e3cd7225d0be22b2","x":-640,"y":-400,"width":1080,"height":540,"type":"text","text":"$$ \\Bbb{R}$$"},
+		{"id":"e0f05f3fa09d28b2","x":-600,"y":-231,"width":180,"height":101,"type":"text","text":"$$ \\Bbb{I}$$"},
+		{"id":"40b9ba51670f0913","x":-360,"y":-261,"width":660,"height":340,"type":"text","text":"$$ \\Bbb\n{Q} $$"},
+		{"id":"b0c39a3f16b2f264","x":0,"y":-180,"width":218,"height":202,"type":"text","text":"$$\\Bbb {Z} $$"},
+		{"id":"9a992692df20a2a4","type":"text","text":"$$ \\Bbb{N} $$","x":71,"y":-91,"width":76,"height":85}
+	],
+	"edges":[]
+}

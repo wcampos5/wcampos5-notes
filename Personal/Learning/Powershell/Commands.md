@@ -1,12 +1,18 @@
 PowerShell Reference[^1]
 ***
-#powershell #commands
+#powershell #commands #pwsh
 
 #### Create a file in the current directory
 ```powershell
 New-Item -Path . -Name "testfile1.txt" -ItemType "file" -Value "This is a text string."
 ```
 
+#### Remove a file in the current directory
+```powershell
+Remove-Item "testfile1.txt"
+```
+
+```
 #### Remove New Line at the end of a variable
 ###### Get gcloud access token
 #removenewline #EOF #interpolation 
