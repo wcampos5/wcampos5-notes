@@ -1,8 +1,9 @@
 Reference[^1]
 ***
+#python #conditional
 Used to flow control deviation based on the specific conditions
 
-#### If
+#### If #if
 >[!example]
 ```python
 saldo = 2000.0
@@ -15,7 +16,7 @@ if saldo < saque:
 ```
 
 
-#### If-Else
+#### If-Else #else
 Used when we have 2 possible conditions
 ```python
 saldo = 2000.0
@@ -27,7 +28,7 @@ else:
 	print("Saldo insulficiente")
 ```
 
-#### If-elif-else
+#### If-elif-else #ifelse
 Used when we have more than 2 possible conditions
 ```python
 option = int(input("Informe uma opcao: [1] - Sacar \n[2] - Extrato: "))
@@ -35,7 +36,7 @@ option = int(input("Informe uma opcao: [1] - Sacar \n[2] - Extrato: "))
 if option == 1:
 	valor = float(input("Digite o valor a sacar: "))
 	#...
-elif option ==2
+elif option ==2:
 	print("Exibindo o extrato... ")
 else:
 	sys.exit("Invalid Option")

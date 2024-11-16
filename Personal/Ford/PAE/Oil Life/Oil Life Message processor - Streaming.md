@@ -9,7 +9,7 @@ select * from gdia_prog_na.oil_life_last_message_received order by last_updated 
 ```
 
 ```sql
-select * from gdia_prog_na.oil_life_last_message_received where vin-'XXXXXXXXXXX';
+select * from gdia_prog_na.oil_life_last_message_received where vin='XXXXXXXXXXX';
 ```
 
 >[!note] Anotar o Oil Life e o Odometer
@@ -35,23 +35,99 @@ Update the Json fields:
 - vin
 - arrivalTime 
 	- get either by [currentmillis](https://currentmillis.com/)
-	- date +%s%N | cut -b1-13
+
+```bash
+date +%s%N | cut -b1-13
+```
+
 - derived_event_timestam
 - odometerMasterValue
 - engOilLife_Pc_Actl
 
+
+Data to Test
+#vin
+
+|                   |             |
+| ----------------- | ----------- |
+| Vehicle           | Environment |
+| 1FTFW1E81NKD62847 | Dev         |
+| 1FTFW1ED8MFA00342 | QA          |
+| WF03XXTTG3LA22330 | STAGE       |
+
+##### Dev Example
+```JSON
+{
+  "year": 2020,
+  "vin": "1FTFW1E81NKD62847",
+  "authmode": "Fleet",
+  "warranty_start_date": "2021-07-21",
+  "arrivalTime": 1731508907204,
+  "derived_event_timestamp": "2022-10-12 09:32:01",
+  "odometerMasterValue": "67000",
+  "model": "FORD  ESCAPE 4-DR 4X2 SE                                    ",
+  "partition_region_x": "NA",
+  "engOilLife_Pc_Actl": 20,
+  "rawpayloadmetadata_customer_countries": [{ "code": "USA" }],
+  "authStatus": "AUTHORIZED",
+  "fuelType": "G",
+  "make": "F"
+}
+```
+
+##### QA Example
 ```json
 {
+  "year": 2020,
+  "vin": "1FTFW1ED8MFA00342",
+  "authmode": "Fleet",
+  "warranty_start_date": "2021-07-21",
+  "arrivalTime": 1731523416250,
+  "derived_event_timestamp": "2022-10-25 09:32:01",
+  "odometerMasterValue": "1630000",
+  "model": "FORD  ESCAPE 4-DR 4X2 SE                                    ",
+  "partition_region_x": "NA",
+  "engOilLife_Pc_Actl": 30,
+  "rawpayloadmetadata_customer_countries": [{ "code": "USA" }],
+  "authStatus": "AUTHORIZED",
+  "fuelType": "G",
+  "make": "F"
+}
+```
+
+##### Stage Example
+```JSON
+{
+  "year": 2020,
+  "vin": "WF03XXTTG3LA22330",
+  "authmode": "Fleet",
+  "warranty_start_date": "2021-07-21",
+  "arrivalTime": 1731603009182,
+  "derived_event_timestamp": "2023-01-02 09:32:01",
+  "odometerMasterValue": "83000",
+  "model": "FORD  ESCAPE 4-DR 4X2 SE                                    ",
+  "partition_region_x": "NA",
+  "engOilLife_Pc_Actl": 70,
+  "rawpayloadmetadata_customer_countries": [{ "code": "USA" }],
+  "authStatus": "AUTHORIZED",
+  "fuelType": "G",
+  "make": "F"
+}
+```
+
+##### Prod Example
+```JSON
+{
 	"year": 2020,
-	"vin": "1FTFW1ED8MFA00342",
+	"vin": "WF03XXTTG3LA22330",
 	"authmode": "Fleet",
 	"warranty_start_date": "2021-07-21",
-	"arrivalTime": 1723638842930,
-	"derived_event_timestamp": "2022-09-12 09:32:01",
-	"odometerMasterValue": "1609940",
+	"arrivalTime": 1731612942704,
+	"derived_event_timestamp": "2023-01-15 09:32:01",
+	"odometerMasterValue": "93000",
 	"model": "FORD  ESCAPE 4-DR 4X2 SE                                    ",
 	"partition_region_x": "NA",
-	"engOilLife_Pc_Actl": 90,
+	"engOilLife_Pc_Actl": 70,
 	"rawpayloadmetadata_customer_countries": [{ "code": "USA" }],
 	"authStatus": "AUTHORIZED",
 	"fuelType": "G",
@@ -59,10 +135,11 @@ Update the Json fields:
 }
 ```
 
+
 - Go to Pub/Sub 
 	Topic ID: a54020-pp-oil-life-scoring-qa-na into Messages Tab
 
-- Step1 - PUBLISH Message
+- Step1 - MESSAGES -> PUBLISH Message
 	Copy the JSON into Message Body
 	
 Open the Cloud Run and verify the logs
@@ -106,3 +183,9 @@ Update the **data** field in the  below template:
 			Select raw->json
 			Copy/Paste above JSON template
 
+Ref[^1]
+***
+
+
+***
+[[Oil Life Functional Test]]

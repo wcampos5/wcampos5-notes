@@ -12,7 +12,7 @@ Reference:
 ===Turn Off the [[Proxy On-Off | proxy]]===
 ===Re-start shell session===
 run the below command to check if the proxy variables are empty:
-```
+```PowerShell
 echo $Env:https_proxy;echo $Env:http_proxy
 ```
 

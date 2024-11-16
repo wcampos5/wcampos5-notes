@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"713f0935509f71d7","x":-618,"y":-105,"width":198,"height":145,"type":"text","text":":fas_store_alt:  Sales |\nDownload App \nwith Costumer"},
+		{"id":"abed28c90590d542","x":-360,"y":-88,"width":299,"height":111,"type":"text","text":"Solicita autorização de compartilhamento de dados"},
+		{"id":"939e67bd83f20e08","x":753,"y":-71,"width":373,"height":60,"type":"text","text":"📆Dealer - agendamento"},
+		{"id":"da1f340436c37c0f","x":850,"y":60,"width":179,"height":117,"type":"text","text":":fas_user: Agenda manutenção"},
+		{"id":"3dbb5cf3cad3d5c9","type":"text","text":":fas_user_group: Dealer\nÉ notificado  sobre a necessidade de auxiliar o consumidor","x":778,"y":-300,"width":323,"height":154},
+		{"id":"20c6530303eca5db","x":1180,"y":-71,"width":250,"height":60,"type":"text","text":"..."},
+		{"id":"3d132c89b943eb85","x":20,"y":-63,"width":280,"height":62,"type":"text","text":":fas_car: | Transmite os dados"},
+		{"id":"7e22e60cb2b623a1","x":380,"y":-79,"width":272,"height":94,"type":"text","text":":fas_user_group: PAE | VHA\nProcessa os dados"}
+	],
+	"edges":[
+		{"id":"be024d6a5ab79ca8","fromNode":"7e22e60cb2b623a1","fromSide":"right","toNode":"3dbb5cf3cad3d5c9","toSide":"left"},
+		{"id":"cefa3c81af46e641","fromNode":"7e22e60cb2b623a1","fromSide":"right","toNode":"da1f340436c37c0f","toSide":"left"},
+		{"id":"bdc59b7cd817a181","fromNode":"da1f340436c37c0f","fromSide":"top","toNode":"939e67bd83f20e08","toSide":"bottom"},
+		{"id":"60a09bbf61faac62","fromNode":"3dbb5cf3cad3d5c9","fromSide":"bottom","toNode":"939e67bd83f20e08","toSide":"top"},
+		{"id":"784fee4847cd74a7","fromNode":"713f0935509f71d7","fromSide":"right","toNode":"abed28c90590d542","toSide":"left"},
+		{"id":"cc665737cc56f430","fromNode":"abed28c90590d542","fromSide":"right","toNode":"3d132c89b943eb85","toSide":"left"},
+		{"id":"1db50ca54beb14ca","fromNode":"3d132c89b943eb85","fromSide":"right","toNode":"7e22e60cb2b623a1","toSide":"left"}
+	]
+}

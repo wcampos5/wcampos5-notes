@@ -2,12 +2,14 @@ Reference - For[^1]
 Reference - While[^2]
 Reference - Break |Continue[^3]
 ***
+#python
 #### For and While
 
 ===For===
+#for
 Using iterable
 Used when we do know previously the repetition times.
-Also, used to loop through an object. (Iteravel/finite) 
+Also, used to loop through an object. (Iterable/finite) 
 
 >[!example] Print vowels in upper case
 ```python
@@ -22,6 +24,7 @@ print()
 ```
 
 using range()
+#range
 
 >[!example] Count 0 to 10
 ```python
@@ -31,7 +34,8 @@ for number in range(1,11):
 
 
 ===While===
-Used to repeat a loop many time based on any condition.
+#while
+Used to repeat a loop many times based on any condition.
 >[!failure] Be careful
 >	You MUST to force a finite number of times to run
 
@@ -49,7 +53,7 @@ while option != 0:
 
 
 #### Break
-
+#break
 >[!example]
 ```python
 while true:
@@ -61,7 +65,7 @@ while true:
 ```
 
 #### Continue
-
+#continue
 >[!example]
 ```python
 for number in range(101):

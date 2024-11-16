@@ -10,7 +10,7 @@ Reference [CRID2 Training Modules](https://azureford.sharepoint.com/sites/GMC/Tr
 [[TVM - Team Value Management]]
 [[TVM Process]]
 
-[[Metrics]]
+[[Personal/Ford/CRID2/Metrics]]
 
 [[CRID2 Testing Area || Creating a cost reduction idea test]] 
 

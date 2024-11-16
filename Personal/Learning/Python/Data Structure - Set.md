@@ -62,12 +62,22 @@ print(conjunto_a.union(conjunto_b))
 
 >[!code] Intersection
 ```python
-conjunto_a = {1,2, 3}
+conjunto_a = {1,2,3}
 conjunto_b = {2,3,4}
 print(conjunto_a.intersection(conjunto_b))
 ```
 >[!example] Output
 >{2, 3}
+
+
+>[!code] Symmetric Difference (oposite of Intersection)
+```python
+conjunto_a = {1,2,3}
+conjunto_b = {2,3,4}
+print(conjunto_a.symmetric_difference(conjunto_b))
+```
+> [!example] Output
+> {1, 4}
 
 
 >[!code] Difference
@@ -81,16 +91,6 @@ print(conjunto_b.difference(conjunto_a))
 > [!example] Output
 > {1}
 > {4}
-
-
->[!code] Symmetric Difference
-```python
-conjunto_a = {1,2,3}
-conjunto_b = {2,3,4}
-print(conjunto_a.symmetric_difference(conjunto_b))
-```
-> [!example] Output
-> {1, 4}
 
 
 >[!code] Is Super Set

@@ -1,21 +1,21 @@
 {
 	"nodes":[
-		{"id":"3d6df8f2eb6211f6","x":-968,"y":-466,"width":2289,"height":1345,"type":"group","label":"Create New Brand DAG"},
+		{"id":"3d6df8f2eb6211f6","type":"group","x":-968,"y":-466,"width":2289,"height":1345,"label":"Create New Brand DAG"},
 		{"id":"a1c6b020c6de1975","type":"text","text":"📁 - active_dags","x":-820,"y":-120,"width":218,"height":50},
 		{"id":"965bd88e584b67d8","type":"text","text":"feature2_main.py","x":-549,"y":-125,"width":250,"height":60},
 		{"id":"1db4de11ec1f5ce6","type":"text","text":"bhm_main.py","x":-549,"y":-220,"width":250,"height":60},
 		{"id":"8b81372a8240d63f","type":"text","text":"feature3_main.py","x":-549,"y":-40,"width":250,"height":60},
 		{"id":"d6ca486b09fdc92b","type":"text","text":"Each new dag requires a xxx_main.py","x":-549,"y":40,"width":271,"height":79,"color":"1"},
-		{"id":"078ea422fbca682e","type":"text","text":"📁 - resources","x":-820,"y":220,"width":218,"height":50},
 		{"id":"e84d19ee633a5a46","type":"text","text":"📁- bhm_dataproc","x":-60,"y":210,"width":300,"height":60},
-		{"id":"8dfa8a14a68fdf5d","x":-220,"y":-446,"width":560,"height":406,"type":"text","text":"```py\ntrigger_bhm_dataproc = TriggerDagRunOperator(  \n    task_id=\"trigger_bhm_dataproc\",   \n    trigger_dag_id=\"bhm_dataproc\",  \n    execution_date=datetime.now(timezone.utc),  \n    reset_dag_run=True,  \n    wait_for_completion=True,  \n    poke_interval=30  \n)  \n  \n(  \n    trigger_bhm_dataproc  \n)\n```"},
+		{"id":"8dfa8a14a68fdf5d","type":"text","text":"```py\ntrigger_bhm_dataproc = TriggerDagRunOperator(  \n    task_id=\"trigger_bhm_dataproc\",   \n    trigger_dag_id=\"bhm_dataproc\",  \n    execution_date=datetime.now(timezone.utc),  \n    reset_dag_run=True,  \n    wait_for_completion=True,  \n    poke_interval=30  \n)  \n  \n(  \n    trigger_bhm_dataproc  \n)\n```","x":-220,"y":-446,"width":560,"height":406},
+		{"id":"078ea422fbca682e","type":"text","text":"📁 - resources","x":-820,"y":220,"width":218,"height":50},
+		{"id":"b2fd37ab561595ee","type":"text","text":"📝dags.json","x":340,"y":799,"width":254,"height":60,"color":"1"},
+		{"id":"2792ccdfdfe6b85c","type":"text","text":"#astro #airflow #dag #structure #astronomer #oldagstructure #smdagstructure","x":-948,"y":-416,"width":649,"height":60},
+		{"id":"c1adc7644b9e8e06","type":"text","text":"📁- Each new dag requires a xxx_main folder","x":-60,"y":720,"width":300,"height":79,"color":"1"},
+		{"id":"05862d5d6f2f6080","type":"text","text":"```json\n{  \n  \"name\": \"bhm_dataproc\",  \n  \"hadoop_edge\": \"hpchdp2e.hpc.ford.com\",  \n  \"file_prefix\": \"/project/dz/collab/PACE/astro_staging/\",  \n  \"region\": \"us-central1\",  \n  \"zone\": \"us-central1-a\",  \n  \"bigquery_ds_prefix\": \"astro_staging_db_bq\",  \n  \"dev_schedule_interval\": \"\",  \n  \"qa_schedule_interval\": \"\",  \n  \"prod_schedule_interval\": \"\",  \n  \"start_date\": \"2023-04-18 02:00:00\",  \n  \"write_mode\": \"WRITE_TRUNCATE\",  \n  \"github_repo_for_dataproc\": \"gcp-prognostics\",  \n  \"dataproc_method\": \"serverless\",  \n  \"dags\": [  \n    {  \n      \"name\": \"\",  \n      \"src_db\": \"\",  \n      \"query_template\": \"\",  \n      \"src_tables\": [\"\"],  \n      \"bigquery_ds_suffix\": \"\",  \n      \"template\": \"\"  \n    }  \n  ]  \n}\n```","x":620,"y":-44,"width":681,"height":764},
 		{"id":"ba5c8a377b531627","type":"text","text":"trigger_bhm_dataproc = TriggerDagRunOperator","x":400,"y":-446,"width":531,"height":60},
 		{"id":"3bed55b873caba29","type":"text","text":"task_id = \"trigger_bhm_dataproc\"","x":400,"y":-386,"width":531,"height":60},
-		{"id":"9a2e7415bc155f41","type":"text","text":"trigger_dag_id = \"bhm_dataproc\"","x":400,"y":-326,"width":509,"height":60},
-		{"id":"c1adc7644b9e8e06","type":"text","text":"📁- Each new dag requires a xxx_main folder","x":-60,"y":720,"width":300,"height":79,"color":"1"},
-		{"id":"b2fd37ab561595ee","type":"text","text":"📝dags.json","x":340,"y":799,"width":254,"height":60,"color":"1"},
-		{"id":"05862d5d6f2f6080","x":620,"y":-44,"width":681,"height":764,"type":"text","text":"```json\n{  \n  \"name\": \"bhm_dataproc\",  \n  \"hadoop_edge\": \"hpchdp2e.hpc.ford.com\",  \n  \"file_prefix\": \"/project/dz/collab/PACE/astro_staging/\",  \n  \"region\": \"us-central1\",  \n  \"zone\": \"us-central1-a\",  \n  \"bigquery_ds_prefix\": \"astro_staging_db_bq\",  \n  \"dev_schedule_interval\": \"\",  \n  \"qa_schedule_interval\": \"\",  \n  \"prod_schedule_interval\": \"\",  \n  \"start_date\": \"2023-04-18 02:00:00\",  \n  \"write_mode\": \"WRITE_TRUNCATE\",  \n  \"github_repo_for_dataproc\": \"gcp-prognostics\",  \n  \"dataproc_method\": \"serverless\",  \n  \"dags\": [  \n    {  \n      \"name\": \"\",  \n      \"src_db\": \"\",  \n      \"query_template\": \"\",  \n      \"src_tables\": [\"\"],  \n      \"bigquery_ds_suffix\": \"\",  \n      \"template\": \"\"  \n    }  \n  ]  \n}\n```"},
-		{"id":"2792ccdfdfe6b85c","x":-948,"y":-220,"width":346,"height":60,"type":"text","text":"#astro #airflow #structure"}
+		{"id":"9a2e7415bc155f41","type":"text","text":"trigger_dag_id = \"bhm_dataproc\"","x":400,"y":-326,"width":509,"height":60}
 	],
 	"edges":[
 		{"id":"4de759df9b7636fe","fromNode":"a1c6b020c6de1975","fromSide":"right","toNode":"1db4de11ec1f5ce6","toSide":"left","color":"4"},
@@ -29,6 +29,6 @@
 		{"id":"6ffe236fa0f5c9d2","fromNode":"8dfa8a14a68fdf5d","fromSide":"top","toNode":"ba5c8a377b531627","toSide":"top","color":"4"},
 		{"id":"b288c2c18fe0ecec","fromNode":"ba5c8a377b531627","fromSide":"right","toNode":"3bed55b873caba29","toSide":"right","color":"4"},
 		{"id":"e9ae18ccca0f4dfc","fromNode":"e84d19ee633a5a46","fromSide":"right","toNode":"05862d5d6f2f6080","toSide":"left","color":"4"},
-		{"id":"483d4113f2b93eda","fromNode":"9a2e7415bc155f41","fromSide":"right","toNode":"e84d19ee633a5a46","toSide":"top","color":"4"}
+		{"id":"35b278084bb71169","fromNode":"9a2e7415bc155f41","fromSide":"right","toNode":"05862d5d6f2f6080","toSide":"top"}
 	]
 }

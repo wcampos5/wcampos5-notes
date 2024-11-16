@@ -1,3 +1,4 @@
+#python  #string
 Built in String Functions[^1]
 Format Strings[^2]
 Slice String[^3]
@@ -6,6 +7,7 @@ Multi Line String[^4]
 Main use is to manipulate characters sequence
 Rich in methods.
 
+#defaulfunctions #functions
 [[Default Functions#^68eeb2 |Refer to Default Functions]] for usage details
 
 
@@ -60,7 +62,7 @@ print("Olá, me chamo {nome}, tenho {idade} de idade.".format(**pessoa))
 
 
 ===f-string=== (***Recommended***)
-#f-string
+#f-string #decimalplace
 ***
 Printing with f-string
 ```python

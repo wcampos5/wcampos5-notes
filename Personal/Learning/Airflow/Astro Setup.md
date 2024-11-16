@@ -1,4 +1,4 @@
-#astro
+#astro #airflow #setup
 
 #### Install Astro
 ```PowerShell
@@ -36,11 +36,6 @@ Open in the local host
 http://localhost:8080/
 
 ![[airflow_login.png]]
-
-
-
-
-
 
 
 #### Q&A

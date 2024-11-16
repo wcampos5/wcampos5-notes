@@ -1,4 +1,4 @@
-|Header1|Header2 |
-|-|-|
-|Item1|Item2|
+| Header1 | Header2 |
+| ------- | ------- |
+| Item1   | Item2   |
 

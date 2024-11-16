@@ -25,7 +25,7 @@ Remove un-necessary:
 # This repository is :no_entry: **DEPRECATED**
 ***
 ## Description
-Repository archieved due to VDCC project sunset.
+Repository archieved due to migration to batch pipeline.
 This is currently in **read-only** mode.
 
 ***

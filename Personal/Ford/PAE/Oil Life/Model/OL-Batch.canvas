@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"938163afc27b44e6","type":"text","text":"trigger_ol_eu_incremental_preprocess_bq","x":-380,"y":-200,"width":445,"height":60,"color":"4"},
+		{"id":"d1ccd7ea2b4f7944","type":"text","text":"trigger_ol_eu_fetch_limits_bq","x":-380,"y":-120,"width":333,"height":60,"color":"3"},
+		{"id":"3f8dae7d264176fb","type":"text","text":"trigger_ol_eu_model_t_dataproc","x":180,"y":-170,"width":358,"height":60},
+		{"id":"13bae7d1492bf94f","type":"text","text":"#olmodeldag #oldga #oillife #model","x":-128,"y":-600,"width":528,"height":60},
+		{"id":"bbdb66df8bc95b18","type":"text","text":":luc_sheet: oil_life_eu_prognostics","x":-277,"y":-440,"width":298,"height":70},
+		{"id":"3d646a354693b76f","type":"text","text":"Dag Modules","x":-620,"y":-180,"width":188,"height":60},
+		{"id":"9b9bace582202041","type":"text","text":":luc_sheet: oil_life_eu_prognostics","x":-407,"y":-10,"width":298,"height":70},
+		{"id":"1a8d14a0edd5aac5","type":"text","text":":obs_sheets_in_box: ol_eu_vin_upper_limit","x":-361,"y":60,"width":295,"height":36,"color":"3"},
+		{"id":"7a3a35d954ec7b0b","type":"text","text":":obs_sheets_in_box: ol_eu_historical_preprocess","x":-224,"y":-370,"width":355,"height":36,"color":"4"},
+		{"id":"85b8f8985a31c6fc","type":"text","text":":luc_sheet: oil_life_eu_prognostics","x":620,"y":-158,"width":298,"height":36},
+		{"id":"c6397c1acee396e3","type":"text","text":":obs_sheets_in_box: ol_eu_model","x":666,"y":-122,"width":207,"height":36,"color":"4"}
+	],
+	"edges":[
+		{"id":"2a37fb412e2086eb","fromNode":"d1ccd7ea2b4f7944","fromSide":"right","toNode":"3f8dae7d264176fb","toSide":"left"},
+		{"id":"ee9941ce1b8f1a60","fromNode":"938163afc27b44e6","fromSide":"right","toNode":"3f8dae7d264176fb","toSide":"left"},
+		{"id":"8486cc9f7a41f045","fromNode":"3d646a354693b76f","fromSide":"bottom","toNode":"938163afc27b44e6","toSide":"left"},
+		{"id":"94aa48a6f0bc1dfc","fromNode":"3d646a354693b76f","fromSide":"bottom","toNode":"d1ccd7ea2b4f7944","toSide":"left"},
+		{"id":"140ef34621bec1b0","fromNode":"3f8dae7d264176fb","fromSide":"right","toNode":"85b8f8985a31c6fc","toSide":"left"},
+		{"id":"35d2b1cec03811f0","fromNode":"bbdb66df8bc95b18","fromSide":"left","toNode":"938163afc27b44e6","toSide":"top"},
+		{"id":"57afb6df0f72b0c3","fromNode":"1a8d14a0edd5aac5","fromSide":"top","toNode":"d1ccd7ea2b4f7944","toSide":"bottom"}
+	]
+}

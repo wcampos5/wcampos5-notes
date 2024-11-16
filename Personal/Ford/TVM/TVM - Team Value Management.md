@@ -8,7 +8,7 @@ Estratégia mais eficiente para gerenciar valor e custo do veiculos correntes e 
 >Cost Estimator
 >Supplier Work
 
-[[Metrics#^247161 | Single Material Cost Metrics]]
+[[Personal/Ford/CRID2/Metrics#^247161| Single Material Cost Metrics]]
 
 
 ##### Tags

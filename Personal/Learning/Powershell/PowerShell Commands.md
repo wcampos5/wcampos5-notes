@@ -3,11 +3,13 @@ PowerShell Reference[^1]
 #powershell #commands #pwsh
 
 #### Create a file in the current directory
+#createfile
 ```powershell
 New-Item -Path . -Name "testfile1.txt" -ItemType "file" -Value "This is a text string."
 ```
 
 #### Remove a file in the current directory
+#deletefile
 ```powershell
 Remove-Item "testfile1.txt"
 ```
@@ -43,7 +45,27 @@ Send gcloud command to $auth variable
 gcloud auth print-access-token | tee-object -variable auth
 ```
 
+#### List Process
+#listprocess
 
+```Powershell
+Get-Process
+```
+
+```Powershell
+Get-Process -name <process_name>
+```
+
+#### Kill Process
+#killprocess #deleteprocess #delete  
+
+```Powershell
+#By name
+Stop-Process -Name <process_name> -Force
+
+#By Id
+Stop-Process -Id 1234 -Force
+```
 
 
 ***

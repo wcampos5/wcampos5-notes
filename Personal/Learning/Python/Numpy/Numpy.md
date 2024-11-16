@@ -31,7 +31,7 @@ assign_tuple = np.array((1, 2, 3, 4, 5, 6), dtype='i')
 type(assign_list)
 ```
 	Returns *numpy.ndarray*
-	ndarras stands for n-Dimensions array
+	ndarray stands for n-Dimensions array
 
 ```python
 assign_list.dtype

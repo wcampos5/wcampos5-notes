@@ -1,5 +1,6 @@
 Dictionaries[^1]
 ***
+#python #dictionary #dictionaries
 
  - NOT ORDERED Set of key:value
  - **Key** MUST be IMMUTABLE
@@ -29,7 +30,7 @@ contatos = {
 }
 ```
 
-
+#loopdictionary
 >[!code] Code
 ```python
 for key in contatos:

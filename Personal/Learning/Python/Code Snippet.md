@@ -1,3 +1,5 @@
+#pythoncodesnippet
+
 Formatted print()
 ```python
 print(f"Text {variable}")

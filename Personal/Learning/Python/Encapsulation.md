@@ -109,7 +109,7 @@ Deleter
 
 Remove the computed property from memory or setup a new default value
 
-```
+```python
 	#...
 	@x.deleter
 	def x(self):

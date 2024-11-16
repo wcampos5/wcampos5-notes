@@ -4,7 +4,7 @@ Tuple[^1]
 **Immutable** sequence of storage objects.
 
 >[!warning]
->The tuple index will remaining the sample until end od the program execution.
+>The tuple index will remaining the sample until end of the program execution.
 
 >[!warning] Tuple Syntaxes x List Syntaxes
 > - tuple declare uses ===Paretheses ()=== instead of Brackets \[\]

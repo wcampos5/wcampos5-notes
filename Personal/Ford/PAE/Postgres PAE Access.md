@@ -27,14 +27,14 @@ gcloud auth print-access-token |sed 's/\r\n//g' | clip
 ###### Dev Properties
 
 ###### Connection
-|                      |                                                                                     |
-| -------------------- | ----------------------------------------------------------------------------------- |
-| Hostname/Address     | 10.16.166.9 (Old)                                                                   |
-|                      | 10.22.32.48                                                                         |
-| Port                 | 5432                                                                                |
-| Maintenance Database | gdia_prog_pg_dev                                                                    |
-| username             | cdsid@ford.com                                                                      |
-| password             | ([[Commands#Get gcloud access token\|gcloud Get Access Token]]) #privateaccesstoken |
+|                      |                                                                                                |
+| -------------------- | ---------------------------------------------------------------------------------------------- |
+| Hostname/Address     | 10.16.166.9 (Old)                                                                              |
+|                      | 10.22.32.48                                                                                    |
+| Port                 | 5432                                                                                           |
+| Maintenance Database | gdia_prog_pg_dev                                                                               |
+| username             | cdsid@ford.com                                                                                 |
+| password             | ([[PowerShell Commands#Get gcloud access token\|gcloud Get Access Token]]) #privateaccesstoken |
 
 ###### QA Properties
 
@@ -45,7 +45,7 @@ gcloud auth print-access-token |sed 's/\r\n//g' | clip
 | Port                 | 5432                                                            |
 | Maintenance Database | gdia_prog_pg_qa                                                 |
 | username             | cdsid@ford.com                                                  |
-| password             | ([[Commands#Get gcloud access token\|gcloud Get Access Token]]) |
+| password             | ([[PowerShell Commands#Get gcloud access token\|gcloud Get Access Token]]) |
 Stage/Production Properties
 
 ###### PROD Properties
@@ -57,7 +57,7 @@ Stage/Production Properties
 | Port                 | 5432                                                            |
 | Maintenance Database | gdia_prog_pg_prod                                               |
 | username             | cdsid@ford.com                                                  |
-| password             | ([[Commands#Get gcloud access token\|gcloud Get Access Token]]) |
+| password             | ([[PowerShell Commands#Get gcloud access token\|gcloud Get Access Token]]) |
 
 
 

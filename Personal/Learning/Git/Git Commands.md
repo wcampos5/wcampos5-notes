@@ -104,3 +104,41 @@ cd /path/to/targetrepo
 git am -3 /path/to/sourcerepo/0001-…-….patch
 ```
 
+
+***
+
+#### Rename
+
+##### Branches
+#branch #rename 
+###### Local
+
+```
+git branch -m <old_name> <new_name>
+```
+
+###### Remote
+
+Delete the old branch on remote - where \<remote\> is, for example, _origin_
+
+```Bash
+git push <remote> --delete <old_name>
+```
+
+>[!warning] Prevent git from using the old name when pushing
+>```Bash
+>git branch --unset-upstream <new_name>
+
+
+Push the new branch to remote
+
+```Bash
+git push <remote> <new_name>
+```
+
+Reset the upstream branch for the new_name local branch
+
+```Bash
+git push <remote> -u <new_name>
+```
+

@@ -6,7 +6,8 @@ Ref[^1]
 - Class attributes are shared between all objects
 
 >[!example]
-```python
+
+```Python
 class Estudante:
   #Class Attribute are declared right after class declaration
   #Shared between instances
