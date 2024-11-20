@@ -1,7 +1,7 @@
 
 Ref[^1]
 ***
-#branchesalignment #gitalignment #gitpullorigin
+#branchesalignment #gitalignment #gitpullorigin #syncbranches
 
 ![[Branching Strategy.canvas|Branching Strategy]]
 Para enviar a _main_ para _dev_, cria-se uma branch usando _dev_ como base
