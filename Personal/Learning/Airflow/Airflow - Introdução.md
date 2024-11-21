@@ -100,7 +100,7 @@ from datetime import datetime
 ###### Workflow Definition (DAGs)
 #dag
 ```python
-@dag(start_date=datetime(2024,11,7)),
+@dag(start_date=datetime(2024,11,7),
     schedule='@daily',
     description='minha dag faz isto...',
     tags=['time_a']

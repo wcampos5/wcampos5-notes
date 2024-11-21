@@ -6,15 +6,15 @@
 		{"id":"0c903260e9d322a3","type":"text","text":"#3d16998 #d5fd571 main","x":160,"y":-46,"width":300,"height":75},
 		{"id":"b2af619ec659346f","type":"text","text":"sync-main-into-dev","x":-693,"y":130,"width":250,"height":60},
 		{"id":"c892d8db8b070228","type":"text","text":"``` git pull origin main ```","x":-519,"y":220,"width":275,"height":60},
-		{"id":"b75097bc43849b57","x":-840,"y":29,"width":272,"height":60,"type":"text","text":"Create a branch using dev as a baseline"},
-		{"id":"650536f35be87b94","x":-639,"y":-248,"width":250,"height":60,"type":"text","text":"#gitmaintodev "},
-		{"id":"6ff09dba84d2f3de","x":-682,"y":393,"width":472,"height":60,"type":"text","text":"#### Fix Out Of Date branch"},
-		{"id":"c94a6ce1dea28c25","x":-682,"y":453,"width":519,"height":60,"type":"text","text":"#outofdate #gitoutofdate #gitsyncbranches"},
+		{"id":"b75097bc43849b57","type":"text","text":"Create a branch using dev as a baseline","x":-840,"y":29,"width":272,"height":60},
+		{"id":"650536f35be87b94","type":"text","text":"#gitmaintodev #gitbranchalignment","x":-639,"y":-248,"width":429,"height":60},
+		{"id":"6ff09dba84d2f3de","type":"text","text":"#### Fix Out Of Date branch","x":-682,"y":393,"width":472,"height":60},
+		{"id":"c94a6ce1dea28c25","type":"text","text":"#outofdate #gitoutofdate #gitsyncbranches","x":-682,"y":453,"width":519,"height":60},
 		{"id":"1d52096c4d563fa2","type":"text","text":"#3d16998\ndev","x":-485,"y":600,"width":179,"height":75},
 		{"id":"fac04e6ca7ae030f","type":"text","text":"#3d16998\nqa","x":-266,"y":600,"width":179,"height":75},
-		{"id":"0870af7cfa660a80","type":"text","text":"``` git pull origin main ```","x":-485,"y":866,"width":275,"height":60},
 		{"id":"b4b50228faef9330","type":"text","text":"Create a branch using dev as a baseline","x":-806,"y":675,"width":272,"height":60},
-		{"id":"49b7af7325dbce46","type":"text","text":"sync-qa-into-dev","x":-659,"y":760,"width":250,"height":60}
+		{"id":"49b7af7325dbce46","type":"text","text":"sync-qa-into-dev","x":-659,"y":760,"width":250,"height":60},
+		{"id":"0870af7cfa660a80","type":"text","text":"``` git pull origin qa ```","x":-485,"y":880,"width":275,"height":60}
 	],
 	"edges":[
 		{"id":"efad4c56e187bb13","fromNode":"3bcec440d61b2a2e","fromSide":"left","toNode":"b2af619ec659346f","toSide":"left"},

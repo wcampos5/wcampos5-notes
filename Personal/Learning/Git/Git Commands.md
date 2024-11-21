@@ -142,3 +142,10 @@ Reset the upstream branch for the new_name local branch
 git push <remote> -u <new_name>
 ```
 
+
+#### Co-Author
+#gitcoauthor #coauthor
+
+```bash
+Co-authored-by: João Silva <joao@exemplo.com>
+```
