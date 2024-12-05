@@ -57,7 +57,7 @@ Get-Process -name <process_name>
 ```
 
 #### Kill Process
-#killprocess #deleteprocess #delete  
+#killprocess #deleteprocess #delete #stopprocess 
 
 ```Powershell
 #By name

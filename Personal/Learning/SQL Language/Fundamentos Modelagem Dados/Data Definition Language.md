@@ -10,29 +10,56 @@ xx'
 
 #### CREATE
 ---
-#create 
+#create   
 Sintaxe
 ```sql
 CREATE object object_name;
 ```
 
 ###### Criando um banco de dados
+#sqlcreatedatabase
+
 ``CREATE DATABASE bd_ddl``
 
 ###### Criar tabela
+#sqlcreatetable
 
 Sintaxe:
-_CREATE TABLE tb_name(
-field1 type options,
-field2 type options,
-field3 type options)
+
+Nova tabela sem dados
+
+```SQL
+CREATE TABLE OR REPLACE tb_name(
+	field1 type options,
+	field2 type options,
+	field3 type options
+);
+```
+
+Nova tabela usando outra pra popular os dados
+#createtableInsertinto #createtableselect
+```SQL
+CREATE TABLE OR REPLACE AS tb_name(
+	SELECT
+		<field1> AS <fieldx1_alias>,
+		<field2> AS <fieldx2_alias>,
+		<fieldn> AS <fieldxn_alias>
+	FROM <prj.dataset.table1_name>
+	GROUP BY <field_alias>
+	ORDER BY <field>
+);
+```
+
+
+
+
 
 Criando uma tabela
 ```sql
 CREATE TABLE tb_ddl(
 matricula INT PRIMARY KEY,
 nome VARCHAR(100),
-sexo CHAR(1))
+sexo CHAR(1));
 ```
 
 ###### Criar um usuário #createuser
@@ -130,7 +157,7 @@ TRUNCATE OBJECT object_name;
 
 #### DROP
 ---
-#drop
+#drop #droptable 
 Apaga OBJETOS DO banco de dados
 
 Sintaxe:

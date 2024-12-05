@@ -22,8 +22,20 @@ git checkout source_branch source_file_name
 
 Steps:
 - List and copy the commit(s) hash from the desired source_branch
+#gitlog
 ```
 git log <source_branch>
+```
+
+#gitlogauthor
+```
+git log --author="wcampos5" --format="%H" --reverse
+```
+
+#gitlogfilehash
+
+```
+git log --follow 
 ```
 
 Make sure you are in the ==target branch==
@@ -149,3 +161,51 @@ git push <remote> -u <new_name>
 ```bash
 Co-authored-by: João Silva <joao@exemplo.com>
 ```
+
+#### Git log
+#gitlog
+
+```Bash
+git log --follow <path/file>
+```
+
+
+#### Git Update Index
+#gitupdateindex #gituntrack
+
+Arquivos trackeados pelo git antes de se adicionar o gitignore
+
+Não indexar arquivos que não se deseja trackear:
+
+```Bash
+# Untrack files
+git rm --cached <file>
+```
+
+Make sure to add the file in the .gitignore
+```bash
+git add -A
+```
+
+Commit changes
+
+
+##### Update permission
+
+###### Alterar modo de execução
+```Bash
+git update-index --chmod=+x gradlew
+```
+
+###### Ignorar Alterações em Arquivos Rastreáveis
+```Bash
+git update-index --assume-unchanged <arquivo>
+```
+
+Se você usou `--assume-unchanged` e quer reverter isso:
+```Bash
+git update-index --no-assume-unchanged <arquivo>
+```
+
+
+

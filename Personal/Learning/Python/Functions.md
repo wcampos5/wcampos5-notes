@@ -2,8 +2,8 @@ Functions[^1]
 ***
 #python #function #functions
 
-A code bloc identified by a name.
-It either can ha a list of parameter or not
+A code block identified by a name.
+It either can have a list of parameter or not
 
 #### Declaration:
 Use the **reserved** key word ***===def=== + function_name(param)+ :***
@@ -124,6 +124,7 @@ def f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):
 - \*\*kwargs - Dictionary
 
 >[!code]
+
 ```python
 def exibir_poema(data_extenso, *args, **kwargs):
   #Text splitted by comma

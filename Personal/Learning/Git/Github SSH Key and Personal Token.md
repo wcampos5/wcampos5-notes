@@ -113,6 +113,7 @@ Password: Use the password that your have saved in a local file
 
 
 ## Updating Github passwords in the Windows
+#vault
 
 - Got to Control Panel\User Accounts\Credential Manager
 - Select Windows Credentials
