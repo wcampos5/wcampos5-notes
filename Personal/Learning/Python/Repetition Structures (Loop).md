@@ -4,12 +4,32 @@ Reference - Break |Continue[^3]
 ***
 #python
 #### For and While
+Projetado para iterar sobre sequências como listas, tuplas, strings e intervalos.
 
-===For===
+Comumente um loop usado para iterar sobre um intervalo é conhecido como **for i**, enquanto loops usados para elementos são chamados de **for each**.
+
+>[!loop for i]
+>```Python
+>for i in range(start,end):
+>	print(i)
+>````
+
+>[!loop for each]
+>```Python
+>text = 'Hello'
+>for each in text
+>	print(each)
+>print()
+>```
+
+
+==For==
 #for
 Using iterable
 Used when we do know previously the repetition times.
 Also, used to loop through an object. (Iterable/finite) 
+
+
 
 >[!example] Print vowels in upper case
 ```python

@@ -1,4 +1,11 @@
 
+#### Named stash
+#gitstashnamed #gitstashsave
+
+```Bash
+git stash push -m ""
+```
+
 
 ***
 References:

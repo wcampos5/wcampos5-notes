@@ -117,7 +117,7 @@ def f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):
 
 
 #### Required Params combined \*args and \*\*kwargs
-#\*args #\*\*kwargs
+#args #kwargs
 >[!note] arg & kwargs is a convention, but could be any name
 
 - \*args - Tupla
@@ -133,31 +133,33 @@ def exibir_poema(data_extenso, *args, **kwargs):
   #format
   #Iterate over all key=value
   meta_data = "\n".join([f"{key.title()}: {value}" for key, value in kwargs.items()])
-
   msg = f"{data_extenso}\n\n{text}\n\n{meta_data}"
-
   print(msg)
-
+  
 exibir_poema(
 
     "Dec, 06th, 2023",
-
     "Zen of Python",
-
     "Beautiful is better than ugly.",
-
     "Explicit is better than implicit.",
-
     "Simple is better than complex.",
-
     "Complex is better than complicated...",
-
     autor="Tim Peters",
-
     ano=1999,
-
 )
 ```
+
+##### Output
+
+>[!example] Output
+>Dec, 06th, 2023
+Zen of Python
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated...
+Autor: Tim Peters
+Ano: 1999
 
 #### Function as a params
 #functionparams

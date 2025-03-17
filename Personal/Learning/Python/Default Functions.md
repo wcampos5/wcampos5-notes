@@ -140,6 +140,22 @@ print(list(range(10)))
 ```
 
 
+#### Random(start, end)
+#random #rand
+Gera números randomicos entre start, end.
+>[!warning] Mandatorio imoprtar a biblioteca **random**
+
+
+>[!example]
+>Jogar um dado até tirar o numero 6.
+>
+>```Python
+>import random
+>roll = 0
+>while roll != 6:
+>	roll = random.randint(1,6)
+>	print(roll)
+
 
 #### Tags
 ***

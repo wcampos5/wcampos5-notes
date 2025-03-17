@@ -4,17 +4,17 @@
 >[!warning] 🔥 OUTSIDE docker.io/library/ pull Worked
 >**Worked** inside VPN, **without** System Proxy setting, Chrome Proxy Script Settings or Chrome Detect 
 
-| **System <br>Proxy Settings** | **Chome <br>Proxy Detect Settings** | Use Script | **VPN Status** | Error            |
-| ----------------------------- | ----------------------------------- | ---------- | -------------- | ---------------- |
-| OFF                           | OFF                                 | OFF        | OFF            | #dockerpullerror |
-| OFF                           | OFF                                 | OFF        | ON             | 👍 for docker.oi |
-| OFF                           | ON                                  | OFF        | OFF            | #dockerpullerror |
-| ON                            | ON                                  | ON         | OFF            | #dockerpullerror |
-| ON                            | ON                                  | OFF        | OFF            | #dockerpullerror |
-| OFF                           | ON                                  | OFF        | ON             | #missingprx      |
-| ON                            | ON                                  | OFF        | ON             | #missingprx      |
-| ON                            | ON                                  | ON         | ON             | #missingprx      |
-|                               |                                     |            |                |                  |
+| **VS System <br>Proxy Settings** | **Chome <br>Proxy Detect Settings** | Use Script | **VPN Status** | Error            |
+| -------------------------------- | ----------------------------------- | ---------- | -------------- | ---------------- |
+| OFF                              | OFF                                 | OFF        | OFF            | #dockerpullerror |
+| OFF                              | OFF                                 | OFF        | ON             | 👍 for docker.oi |
+| OFF                              | ON                                  | OFF        | OFF            | #dockerpullerror |
+| ON                               | ON                                  | ON         | OFF            | #dockerpullerror |
+| ON                               | ON                                  | OFF        | OFF            | #dockerpullerror |
+| OFF                              | ON                                  | OFF        | ON             | #missingprx      |
+| ON                               | ON                                  | OFF        | ON             | #missingprx      |
+| ON                               | ON                                  | ON         | ON             | #missingprx      |
+
 
 #### Known Errors:
 

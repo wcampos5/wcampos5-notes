@@ -10,6 +10,9 @@ Reference[^1]
 
 #### Integer Division (\/\/)
 > [!warning] (\/\/) Double slashes return an int() instead a float()
+> Considera apenas o lado esquerdo do ponto decimal
+
+
 
 #### Module (%)
 Rest of division

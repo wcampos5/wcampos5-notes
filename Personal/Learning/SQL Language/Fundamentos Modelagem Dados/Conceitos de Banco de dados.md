@@ -79,7 +79,7 @@ Extensão do Modelo Relacional, chamado de **Meta-Modelo**
 
 
 ***
-[[Modelagem de Dados - SQL]] | [[]]
+[[Introdução - Modelagem de Dados - SQL]] | [[]]
 
 ***
 [^1]: [Modelagem de Dados](https://ford.udemy.com/course/preparatorio_mta_database_fundamentals/learn/lecture/19077612#questions)

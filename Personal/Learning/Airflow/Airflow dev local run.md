@@ -51,7 +51,22 @@ Use the default  _admin_ for:
 - Password
 
 
+### Troubleshooting Erros
 
+>[!error] Postgres or other application running on port 5432
+
+```
+Error: error building, (re)creating or starting project containers: Error response from daemon: Ports are not available: exposing port TCP 127.0.0.1:5432 -> 0.0.0.0:0: listen tcp 127.0.0.1:5432: bind: An attempt was made to access a socket in a way forbidden by its access permissions.
+```
+
+>[!success] Solution
+>Verify if the Postgres is running and kill it prior to retry astro dev start
+>```PowerShell
+>Get-Process -Name postgres
+>Stop-Process -Name postgres
+>```
+
+***
 
 
 

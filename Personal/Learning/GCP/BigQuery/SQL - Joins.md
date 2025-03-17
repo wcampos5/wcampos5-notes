@@ -58,7 +58,8 @@ WHERE b.chave ISNULL
 #rightjoin
 
 Prioriza a tabela da direita, ou seja, a tabela que esta no Right Join
-![[left_joing.png]]
+
+![[right_join.png]]
 
 
 ##### Com dados da interseção

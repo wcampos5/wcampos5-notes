@@ -1,4 +1,4 @@
-#sigla #acronumous
+#sigla #acronymous
 
 
 |***ACRONIM***|***MEANING***|***TAG***|

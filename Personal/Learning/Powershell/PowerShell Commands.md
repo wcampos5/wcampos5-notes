@@ -62,7 +62,9 @@ Get-Process -name <process_name>
 ```Powershell
 #By name
 Stop-Process -Name <process_name> -Force
+```
 
+```Powershell
 #By Id
 Stop-Process -Id 1234 -Force
 ```

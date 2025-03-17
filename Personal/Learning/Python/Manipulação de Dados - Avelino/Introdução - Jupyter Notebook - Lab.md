@@ -19,9 +19,19 @@ Da pra fazer download do script py, do pdf e outras opções.
 #### Instalação
 :luc_link: [jupyter.org](https://jupyter.org)
 
+Procedimento para instalação em ambiente virtual
+[[Virtual Environment#Default Python Virtual Environment | Criar um virtual environment]]
+
+O Python 3.12 já vem com Jupyter-lab instalado
+
+Chamar o Juptyter-lab via terminal:
+```Python
+jupyter-lab
+```
+
 #### Anaconda
 :luc_link: [Anaconda](https://www.anaconda.com)
-Instala todo o framework
+Instalar todo o framework
 
 ***
 [[]]

@@ -16,14 +16,31 @@ py -m venv .venv
 ```
 where **.venv** is the name of Virtual Environment
 
+
 - Activate the Virtual Environment
+##### cmd
 ```python
-.venv\bin\Activate.bat
+.venv\Script\Activate.bat
 ```
+
+##### Bash
+```Bash
+source .venv/Script/activate
+```
+
 Use *==deactivate==* to disable the Virtual Environment
+```Bash
+deactivate
+```
+
 
 #### Update Python Package Manager (pip)
 #pip
+
+>[!error] ##### Proxy Error
+>If proxy error disable the proxy (PowerShell and Chrome)
+>Re-start the bash session and try again
+
 
 ```python
 py -m pip install --upgrade pip

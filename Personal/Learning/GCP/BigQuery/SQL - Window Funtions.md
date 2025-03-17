@@ -20,7 +20,7 @@ Cria uma nova coluna na tabela e retorna o first value para cada ocorrência do 
 Dentro de OVER( PARTITION BY \<field\> ORDER BY \<field\>)
 
 ##### Sintaxe
-`FIRST_VALUE(<field>) OVER(PARTITION BY <field> order <field>) as <alias>`
+`FIRST_VALUE(<field>) OVER(PARTITION BY <field> ORDER BY <field>) as <alias>`
 
 ```SQL
 SELECT
@@ -129,7 +129,7 @@ ORDER BY user_id, created_at;
 
 
 #### RANK & ROW_NUMBER
-#rank #rownumber
+#rank #row #rownumber
 
 ##### RANK
 Cria uma nova coluna na tabela e retorna:

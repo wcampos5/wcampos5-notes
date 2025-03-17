@@ -5,6 +5,12 @@ Product Specification Document[^1]
 
 #### Overview
 
+>[!info] SM Business Logic
+>New Batch Schedule Maintenance Business Logic
+[SM Business Logic](https://github.ford.com/gdia-prognostics/gcp-ol-prog/blob/dev/bq/development/prog_dags_sql_sandbox/sm_prediction/sm_business_rules.md)
+#smbusinesslogic #businesslogic 
+
+
 É uma expansão da feature de Vehicle Prognostics atualmente oferecida pelo time de VHA - Vehicle Health Alert, é um alerta confiável chamando o consumidor para agendar sua manutenção periódica.
 
 #### Método
@@ -38,17 +44,20 @@ Base de dados que contém as recopmendações de agendamento de manutenção.
 
 Sumário dos Gatilhos
 
-|                                          |      Samples       |        Estimativa Miles / Days         | Estimativa Km / Days |           Estimativa<br>dias            |          UB          | Dist<br>Over<br>Mileage<br>Interval | Caso Uso |
-| ---------------------------------------- | :----------------: | :------------------------------------: | :------------------: | :-------------------------------------: | :------------------: | ----------------------------------- | -------- |
-| Tempo x Distância Model                  |         -          |                   -                    |          -           |                    -                    | :fas_greater_than: 3 |                                     | UC1      |
-| Antes de enviar msg.                     |        >150        |                 >3000                  |        >4800         | >120                ≤3          equal:3 |                      | UC2                                 |          |
-| Planejar (2nd) _por distancia_           |        >150        | >3000 :fas_greater_than_equal: d > 500 |        >4800         |                                         | :fas_greater_than: 3 |                                     | UC3      |
-| Planejar (2nd) _por tempo_               |        >150        |                                        |                      |         120 days ≥ t > 30 Days          |          ≤3          |                                     | UC4      |
-| Planejar<br>_UB_ :fas_less_than_equal: 3 |        >150        |                                        |                      |         30 days ≥  t  > 14 Days         |          ≤3          |                                     | UC5      |
-| Manutenção<br>aproximando                |        >150        |   500 :fas_greater_than_equal: t > 0   |                      |                                         | :fas_greater_than: 3 |                                     | UC6      |
-| Manutenção<br>aproximando                |        >150        |                                        |                      |             14 days ≥ t > 0             |          ≤3          |                                     | UC7      |
-| Manutenção<br>Requerida                  |        >150        |                  ≤ 0                   |                      |                 OR ≤ 0                  |                      | ≤ 500                               | UC8      |
-| Manutenção<br>Reset                      | Oil Reset Received |                                        |                      |         OR 14 days over SM date         |                      | OR ≥ 500                            | UC9      |
+Uncertain Bin
+#ub #incertaintbin
+
+|                                          |      Samples       |        Estimativa Miles / Days         | Estimativa Km / Days |           Estimativa<br>dias            |          UB          | Dist<br>Over<br>Mileage<br>Interval | Caso Uso | FT  |
+| ---------------------------------------- | :----------------: | :------------------------------------: | :------------------: | :-------------------------------------: | :------------------: | ----------------------------------- | -------- | --- |
+| Tempo x Distância Model                  |         -          |                   -                    |          -           |                    -                    | :fas_greater_than: 3 |                                     | UC1      |     |
+| Antes de enviar msg.                     |        >150        |                 >3000                  |        >4800         | >120                ≤3          equal:3 |                      | UC2                                 |          |     |
+| Planejar (2nd) _por distancia_           |        >150        | >3000 :fas_greater_than_equal: d > 500 |        >4800         |                                         | :fas_greater_than: 3 |                                     | UC3      |     |
+| Planejar (2nd) _por tempo_               |        >150        |                                        |                      |         120 days ≥ t > 30 Days          |          ≤3          |                                     | UC4      |     |
+| Planejar<br>_UB_ :fas_less_than_equal: 3 |        >150        |                                        |                      |         30 days ≥  t  > 14 Days         |          ≤3          |                                     | UC5      |     |
+| Manutenção<br>aproximando                |        >150        |   500 :fas_greater_than_equal: t > 0   |                      |                                         | :fas_greater_than: 3 |                                     | UC6      |     |
+| Manutenção<br>aproximando                |        >150        |                                        |                      |             14 days ≥ t > 0             |          ≤3          |                                     | UC7      |     |
+| Manutenção<br>Requerida                  |        >150        |                  ≤ 0                   |                      |                 OR ≤ 0                  |                      | ≤ 500                               | UC8      |     |
+| Manutenção<br>Reset                      | Oil Reset Received |                                        |                      |         OR 14 days over SM date         |                      | OR ≥ 500                            | UC9      |     |
 
 
 
