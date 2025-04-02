@@ -1,7 +1,7 @@
 VS Software Engineer 2023 | Connected Vehicle Data Awareness[^0] 
 xx'
 ***
-#connectedvehicle #dataawareness
+#connectedvehicle #dataawareness #dap
 
 
 Starting with... data...

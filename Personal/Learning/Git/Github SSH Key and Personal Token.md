@@ -109,7 +109,11 @@ git clone git@github-enterprise:your-username/your-repository.git
 
 So, if your are using the Personal Token may you will be prompt requesting the user and password.
 User..........: Your Github User
-Password: Use the password that your have saved in a local file
+Password: Use the password (token string) that your have saved in a local file
+
+>[!error] Ford force to grant organization by SSO
+
+![[Pasted image 20250326143457.png]]
 
 
 ## Updating Github passwords in the Windows

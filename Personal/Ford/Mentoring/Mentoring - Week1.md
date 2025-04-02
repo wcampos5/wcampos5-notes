@@ -7,8 +7,11 @@ Ref[^1]
 >[!quote] Mentor's tip
 >Listen 10x vs speak
 >
+>Pessoas confiantes sabem o que pensam
+elas querem saber o que você pensa
+>
 >** Confident people already know what they think
->they want to know wat you think" **
+>they want to know what you think" **
 
 
 #### Schedule:
@@ -32,12 +35,18 @@ Ref[^1]
 
 #### Difficult People
 
+Temos a tendência de julgar as pessoas antes de realmente as conhecermos, por conta de viéses implicitos em nós mesmos.
+
+>[!quote] Nosso cerebro é desenhado para sobrevivencia
+
+
+
 ===Archetypes:===
 
-- Not Listener
-- One-Upper
-- Gossiper
-- Curmudgeons
+- Não demonstra atenção no dialogo -  (Not Listener)
+- Se Acha, sempre tem algo melhor (One-Upper)
+- Fofoqueira (Gossiper)
+- Ranzinzas  - Sempre estão no passado relembrando os dias gloriosos (Curmudgeons)
 
 >[!quote] Para lidar com pessoas dificeis precisamos mudar a nós mesmos e não ao outro
 

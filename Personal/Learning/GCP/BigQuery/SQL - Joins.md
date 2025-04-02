@@ -77,7 +77,7 @@ SELECT
 FROM tabela_a tbl_a
 RIGHT JOIN tabela_b tbl_b ON tbl_a.chave = tbl_b.chave
 -- Adiciona-se a clausula WHERE
-WHERE a.chave ISNULL
+WHERE a.chave IS NULL
 ```
 
 

@@ -13,7 +13,7 @@ xx'
 
 #### Sintaxe
 ```SQL
-WITH as tbl_x (
+WITH tbl_x AS (
 	SELECT
 		<field1> AS <fieldx1_alias>,
 		<field2> AS <fieldx2_alias>,
@@ -22,7 +22,7 @@ WITH as tbl_x (
 	GROUP BY <field_alias>
 ),
 
-WITH as tbl_y (
+WITH tbl_y AS (
 	SELECT
 		<field1> AS <fieldy1_alias>,
 		<fieldn> AS <fieldy2_alias>

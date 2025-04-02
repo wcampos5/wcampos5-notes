@@ -37,7 +37,7 @@ SELECT * FROM `prj-dfad-31-usrda-p-31.wcampos5_cvd2x_oil_life_ds.ncvdpxq_cvd2x_p
 
 #### cvd2x_sched_maint_ds - VHA
 ```SQL
-SELECT * FROM `prj-dfad-31-usrda-p-31.wcampos5_cvd2x_sched_maint_ds.nscvtga_cvd2x_sm_tb_vw` WHERE scvtfu_partition_date_x = CURRENT_DATE() LIMIT 1000
+SELECT * FROM `prj-dfad-31-usrda-p-31.wcampos5_cvd2x_sched_maint_ds.nscvtga_cvd2x_sm_tb_vw` WHERE df_partition_date = CURRENT_DATE() LIMIT 1000
 ```
 
 #### DAP Personal User
