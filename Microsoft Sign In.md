@@ -4,5 +4,6 @@
 
 
 >[!success] SOLUTION
->Atualizar o sistema operacional.
+>Atualizar o sistema operacional ou formatar a maquina.
+
 
